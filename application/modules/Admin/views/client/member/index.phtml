@@ -1,0 +1,77 @@
+<?php echo $this->render("layout/header.phtml");?>
+
+<form action="<?php echo $listUrl;?>" method="post" id="searchForm">
+<input name="token" type="hidden" value="<?php echo $token;?>" />
+<div class="table_full">
+	<table width="100%">
+		<tr class="tr">
+			<th class="th" >用户ID</th>
+			<td class="td"><input type="text" class="input" name="id" value="<?php echo ($search['id']) ? $search['id'] : '';?>"></td>
+
+            <th class="th" width="7%">昵称</th>
+			<td class="td" width="26%"><input type="text" class="input" name="username" value="<?php echo ($search['username']) ? $search['username'] : '';?>"></td>
+		</tr>
+		<tr class="tr">
+			<th class="th">手机号</th>
+			<td class="td" width="26%"><input type="text" class="input" name="phone" value="<?php echo ($search['phone']) ? $search['phone'] : '';?>"></td>
+
+			<th class="th">注册时间</th>
+			<td class="td" ><div><input class="input" type="text" maxlength="30" style="width:143px;" id="start_time" name="start_time" value="<?php echo $search['start_time'];?>" /> 至 <input class="input" type="text" maxlength="30" style="width:143px;" id="end_time" name="end_time" value="<?php echo $search['end_time'];?>" /></div>
+			</td>
+		</tr>
+	</table>
+</div>
+<div class="mb10 tac"><span class="btn"><span><button type="submit">搜 索</button></span></span></div>
+</form>
+<div class="h_a">
+
+	<span>共<?php echo $total;?>条结果</span>
+</div>
+<div class="table_list">
+	<table width="100%">
+		<tr class="hd">
+			<td width="60">ID</td>
+			<td width="60">昵称</td>
+			<td width="200">手机号</td>
+			<td width="100">微信</td>
+			<td width="100">推荐人</td>
+			<td width="120">注册时间</td>
+			<td width="120">注册IP</td>
+			<td width="120">相同IP</td>
+			<td width="60">等级</td>
+			<td width="60">状态</td>
+			<td width="200">操作</td>
+		</tr>
+<?php foreach($list as $key => $value) {?>
+		<tr class="ct">
+			<td><?php echo $value['id'];?></td>
+			<td><?php echo $value['username'] ;?></td>
+			<td><?php echo $value['phone'];?></td>
+			<td><?php echo $value['weixin'];?></td>
+			<td><?php echo $value['fatherName'];?></td>
+		    <td><?php echo date('Y-m-d H:i:s', $value['create_time']);?></td>
+		    <td><?php echo $value['reg_ip'];?></td>
+		    <td><?php echo $value['sameIpCount'];?></td>
+		    <td><?php echo $value['levelName'] ?></td>
+		    <td><?php echo $value['statusTxt'] ?></td>
+			<td>
+				<a href="<?php echo $infoUrl;?>/?id=<?php echo $value['id'];?>" class="mr10">详情</a>
+				<a href="<?php echo $infoUrl;?>/?id=<?php echo $value['id'];?>" class="mr10">禁止登陆</a>
+				<a href="<?php echo $infoUrl;?>/?id=<?php echo $value['id'];?>" class="mr10">登陆</a>
+			</td>
+		</tr>
+<?php } ?>
+	</table>
+</div>
+<div class="mr10 cc">
+<?php echo $pager;?>
+</div>
+<script src="<?php echo $staticPath;?>/js/common/jquery-ui-timepicker.js"></script>
+<script type="text/javascript">
+//表单数据提交
+$(document).ready(function(){
+	 $('#start_time').datetimepicker();
+     $('#end_time').datetimepicker();
+})
+</script>
+<?php echo $this->render("layout/footer.phtml");?>

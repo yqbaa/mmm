@@ -1,0 +1,522 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component name="dataSourceStorage">
+  <data-source name="MySQL - xiaogu@localhost" uuid="f0be4493-a6e7-407d-85ed-2fc1df268584">
+    <database-info product="MySQL" version="5.7.11" jdbc-version="4.0" driver-name="MySQL Connector Java" driver-version="mysql-connector-java-5.1.35 ( Revision: 5fb9c5849535c13917c2cf9baaece6ef9693ef27 )">
+      <extra-name-characters>#@</extra-name-characters>
+      <identifier-quote-string>`</identifier-quote-string>
+    </database-info>
+    <case-sensitivity plain-identifiers="exact" quoted-identifiers="exact"/>
+    <database-model serializer="dbm" rdbms="MYSQL" format-version="2.4">
+      <schema id="1" name="xiaogu"/>
+      <table id="2" parent="1" name="admin_group"/>
+      <table id="3" parent="1" name="admin_log"/>
+      <table id="4" parent="1" name="admin_search"/>
+      <table id="5" parent="1" name="admin_user"/>
+      <table id="6" parent="1" name="xg_provide_help">
+        <comment>提供帮助</comment>
+      </table>
+      <table id="7" parent="1" name="xg_member">
+        <comment>用户表</comment>
+      </table>
+      <table id="8" parent="1" name="xg_accept_help">
+        <comment>接受帮助</comment>
+      </table>
+      <table id="9" parent="1" name="xg_match">
+        <comment>匹配表</comment>
+      </table>
+      <table id="10" parent="1" name="xg_interest">
+        <comment>利息表</comment>
+      </table>
+      <table id="11" parent="1" name="xg_wallet">
+        <comment>我的钱包</comment>
+      </table>
+      <table id="12" parent="1" name="xg_money_log">
+        <comment>资金记录</comment>
+      </table>
+      <table id="13" parent="1" name="xg_login_log">
+        <comment>登陆日志</comment>
+      </table>
+      <column id="14" parent="2" name="groupid">
+        <mandatory>1</mandatory>
+        <data-type>int(10) unsigned</data-type>
+      </column>
+      <column id="15" parent="2" name="name">
+        <mandatory>1</mandatory>
+        <data-type>varchar(20)</data-type>
+        <default-expression>&apos;&apos;</default-expression>
+      </column>
+      <column id="16" parent="2" name="descrip">
+        <mandatory>1</mandatory>
+        <data-type>varchar(255)</data-type>
+        <default-expression>&apos;&apos;</default-expression>
+      </column>
+      <column id="17" parent="2" name="createtime">
+        <mandatory>1</mandatory>
+        <data-type>int(10) unsigned</data-type>
+        <default-expression>&apos;0&apos;</default-expression>
+      </column>
+      <column id="18" parent="2" name="ifdefault">
+        <mandatory>1</mandatory>
+        <data-type>tinyint(10) unsigned</data-type>
+        <default-expression>&apos;0&apos;</default-expression>
+      </column>
+      <column id="19" parent="2" name="rvalue">
+        <mandatory>1</mandatory>
+        <data-type>text</data-type>
+      </column>
+      <key id="20" parent="2" name="PRIMARY">
+        <columns>groupid</columns>
+        <primary>1</primary>
+      </key>
+      <column id="21" parent="3" name="id">
+        <mandatory>1</mandatory>
+        <data-type>int(10) unsigned</data-type>
+      </column>
+      <column id="22" parent="3" name="uid">
+        <mandatory>1</mandatory>
+        <data-type>int(10)</data-type>
+        <default-expression>&apos;0&apos;</default-expression>
+      </column>
+      <column id="23" parent="3" name="username">
+        <mandatory>1</mandatory>
+        <data-type>varchar(255)</data-type>
+        <default-expression>&apos;&apos;</default-expression>
+      </column>
+      <column id="24" parent="3" name="message">
+        <mandatory>1</mandatory>
+        <data-type>varchar(255)</data-type>
+        <default-expression>&apos;&apos;</default-expression>
+      </column>
+      <column id="25" parent="3" name="ip">
+        <mandatory>1</mandatory>
+        <data-type>varchar(255)</data-type>
+        <default-expression>&apos;&apos;</default-expression>
+      </column>
+      <column id="26" parent="3" name="create_time">
+        <mandatory>1</mandatory>
+        <data-type>int(10)</data-type>
+        <default-expression>&apos;0&apos;</default-expression>
+      </column>
+      <index id="27" parent="3" name="idx_uid">
+        <columns>uid</columns>
+        <desc-columns></desc-columns>
+      </index>
+      <key id="28" parent="3" name="PRIMARY">
+        <columns>id</columns>
+        <primary>1</primary>
+      </key>
+      <column id="29" parent="4" name="id">
+        <mandatory>1</mandatory>
+        <data-type>int(10) unsigned</data-type>
+      </column>
+      <column id="30" parent="4" name="menukey">
+        <mandatory>1</mandatory>
+        <data-type>varchar(255)</data-type>
+        <default-expression>&apos;&apos;</default-expression>
+      </column>
+      <column id="31" parent="4" name="menuhash">
+        <mandatory>1</mandatory>
+        <data-type>varchar(32)</data-type>
+        <default-expression>&apos;&apos;</default-expression>
+      </column>
+      <column id="32" parent="4" name="name">
+        <mandatory>1</mandatory>
+        <data-type>varchar(255)</data-type>
+        <default-expression>&apos;&apos;</default-expression>
+      </column>
+      <column id="33" parent="4" name="subname">
+        <mandatory>1</mandatory>
+        <data-type>varchar(255)</data-type>
+        <default-expression>&apos;&apos;</default-expression>
+      </column>
+      <column id="34" parent="4" name="url">
+        <mandatory>1</mandatory>
+        <data-type>varchar(255)</data-type>
+        <default-expression>&apos;&apos;</default-expression>
+      </column>
+      <column id="35" parent="4" name="descrip">
+        <mandatory>1</mandatory>
+        <data-type>text</data-type>
+      </column>
+      <key id="36" parent="4" name="PRIMARY">
+        <columns>id</columns>
+        <primary>1</primary>
+      </key>
+      <column id="37" parent="5" name="uid">
+        <mandatory>1</mandatory>
+        <data-type>int(10) unsigned</data-type>
+      </column>
+      <column id="38" parent="5" name="username">
+        <mandatory>1</mandatory>
+        <data-type>varchar(20)</data-type>
+        <default-expression>&apos;&apos;</default-expression>
+      </column>
+      <column id="39" parent="5" name="password">
+        <mandatory>1</mandatory>
+        <data-type>varchar(32)</data-type>
+        <default-expression>&apos;&apos;</default-expression>
+      </column>
+      <column id="40" parent="5" name="hash">
+        <mandatory>1</mandatory>
+        <data-type>varchar(6)</data-type>
+        <default-expression>&apos;&apos;</default-expression>
+      </column>
+      <column id="41" parent="5" name="email">
+        <mandatory>1</mandatory>
+        <data-type>varchar(60)</data-type>
+        <default-expression>&apos;&apos;</default-expression>
+      </column>
+      <column id="42" parent="5" name="registertime">
+        <mandatory>1</mandatory>
+        <data-type>int(10) unsigned</data-type>
+        <default-expression>&apos;0&apos;</default-expression>
+      </column>
+      <column id="43" parent="5" name="registerip">
+        <mandatory>1</mandatory>
+        <data-type>varchar(16)</data-type>
+        <default-expression>&apos;&apos;</default-expression>
+      </column>
+      <column id="44" parent="5" name="groupid">
+        <mandatory>1</mandatory>
+        <data-type>int(10) unsigned</data-type>
+        <default-expression>&apos;0&apos;</default-expression>
+      </column>
+      <index id="45" parent="5" name="idx_groupid">
+        <columns>groupid</columns>
+        <desc-columns></desc-columns>
+      </index>
+      <index id="46" parent="5" name="idx_username">
+        <columns>username</columns>
+        <desc-columns></desc-columns>
+      </index>
+      <key id="47" parent="5" name="PRIMARY">
+        <columns>uid</columns>
+        <primary>1</primary>
+      </key>
+      <column id="48" parent="6" name="id">
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+      </column>
+      <column id="49" parent="6" name="amount">
+        <comment>提供帮助金额</comment>
+        <mandatory>1</mandatory>
+        <data-type>decimal(10)</data-type>
+        <default-expression>&apos;0&apos;</default-expression>
+      </column>
+      <column id="50" parent="6" name="uid">
+        <comment>提供帮助用户的id</comment>
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+      </column>
+      <column id="51" parent="6" name="create_time">
+        <comment>创建时间</comment>
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+      </column>
+      <column id="52" parent="6" name="status">
+        <comment>0 : 未匹配 ；1 一匹配</comment>
+        <mandatory>1</mandatory>
+        <data-type>tinyint(4)</data-type>
+        <default-expression>&apos;0&apos;</default-expression>
+      </column>
+      <key id="53" parent="6" name="PRIMARY">
+        <columns>id</columns>
+        <primary>1</primary>
+      </key>
+      <column id="54" parent="7" name="id">
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+      </column>
+      <column id="55" parent="7" name="username">
+        <mandatory>1</mandatory>
+        <data-type>varchar(30)</data-type>
+      </column>
+      <column id="56" parent="7" name="phone">
+        <comment>手机号码</comment>
+        <mandatory>1</mandatory>
+        <data-type>char(11)</data-type>
+      </column>
+      <column id="57" parent="7" name="password">
+        <comment>密码</comment>
+        <mandatory>1</mandatory>
+        <data-type>char(32)</data-type>
+      </column>
+      <column id="58" parent="7" name="create_time">
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+      </column>
+      <column id="59" parent="7" name="avatar">
+        <data-type>varchar(255)</data-type>
+      </column>
+      <column id="60" parent="7" name="level">
+        <data-type>tinyint(1) unsigned</data-type>
+      </column>
+      <column id="61" parent="7" name="status">
+        <comment>0：未审核  1 正常 2 禁用</comment>
+        <mandatory>1</mandatory>
+        <data-type>tinyint(4)</data-type>
+      </column>
+      <column id="62" parent="7" name="reg_ip">
+        <comment>注册ip</comment>
+        <mandatory>1</mandatory>
+        <data-type>char(15)</data-type>
+      </column>
+      <column id="63" parent="7" name="source">
+        <comment>注册来源 0: 系统注册 1 会员帮忙注册 2 使用激活码注册</comment>
+        <mandatory>1</mandatory>
+        <data-type>tinyint(4)</data-type>
+        <default-expression>&apos;0&apos;</default-expression>
+      </column>
+      <column id="64" parent="7" name="father_id">
+        <comment>推荐人id</comment>
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+        <default-expression>&apos;0&apos;</default-expression>
+      </column>
+      <column id="65" parent="7" name="weixin">
+        <comment>微信号</comment>
+        <mandatory>1</mandatory>
+        <data-type>varchar(30)</data-type>
+      </column>
+      <column id="66" parent="7" name="id_number">
+        <comment>身份证号码</comment>
+        <mandatory>1</mandatory>
+        <data-type>char(18)</data-type>
+      </column>
+      <column id="67" parent="7" name="bank">
+        <comment>银行</comment>
+        <mandatory>1</mandatory>
+        <data-type>varchar(60)</data-type>
+      </column>
+      <column id="68" parent="7" name="bank_account">
+        <comment>银行账户</comment>
+        <mandatory>1</mandatory>
+        <data-type>varchar(60)</data-type>
+      </column>
+      <column id="69" parent="7" name="bank_account_name">
+        <comment>银行开户名</comment>
+        <mandatory>1</mandatory>
+        <data-type>varchar(60)</data-type>
+      </column>
+      <index id="70" parent="7" name="xg_member_phone_uindex">
+        <columns>phone</columns>
+        <desc-columns></desc-columns>
+        <unique>1</unique>
+      </index>
+      <key id="71" parent="7" name="PRIMARY">
+        <columns>id</columns>
+        <primary>1</primary>
+      </key>
+      <key id="72" parent="7" name="xg_member_phone_uindex">
+        <columns>phone</columns>
+        <underlying-index>xg_member_phone_uindex</underlying-index>
+      </key>
+      <column id="73" parent="8" name="id">
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+      </column>
+      <column id="74" parent="8" name="amount">
+        <mandatory>1</mandatory>
+        <data-type>decimal(10)</data-type>
+        <default-expression>&apos;0&apos;</default-expression>
+      </column>
+      <column id="75" parent="8" name="uid">
+        <comment>用户id</comment>
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+      </column>
+      <column id="76" parent="8" name="status">
+        <comment>0 未匹配 1 已匹配</comment>
+        <mandatory>1</mandatory>
+        <data-type>tinyint(4)</data-type>
+      </column>
+      <column id="77" parent="8" name="create_time">
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+      </column>
+      <column id="78" parent="8" name="type">
+        <mandatory>1</mandatory>
+        <data-type>tinyint(4)</data-type>
+        <default-expression>&apos;0&apos;</default-expression>
+      </column>
+      <index id="79" parent="8" name="xg_accept_help__uid">
+        <columns>uid</columns>
+        <desc-columns></desc-columns>
+      </index>
+      <key id="80" parent="8" name="PRIMARY">
+        <columns>id</columns>
+        <primary>1</primary>
+      </key>
+      <column id="81" parent="9" name="id">
+        <comment>匹配表id</comment>
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+      </column>
+      <column id="82" parent="9" name="accept_id">
+        <comment>接受帮助的id</comment>
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+      </column>
+      <column id="83" parent="9" name="provide_id">
+        <comment>提供帮助的id</comment>
+        <data-type>int(11)</data-type>
+      </column>
+      <column id="84" parent="9" name="amount">
+        <mandatory>1</mandatory>
+        <data-type>decimal(10)</data-type>
+        <default-expression>&apos;0&apos;</default-expression>
+      </column>
+      <column id="85" parent="9" name="status">
+        <comment>0: 未打款 1 ：确认打款  2 对方确认收款，订单完成</comment>
+        <mandatory>1</mandatory>
+        <data-type>tinyint(4)</data-type>
+        <default-expression>&apos;0&apos;</default-expression>
+      </column>
+      <column id="86" parent="9" name="create_time">
+        <comment>匹配时间</comment>
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+      </column>
+      <column id="87" parent="9" name="pay_time">
+        <comment>打款时间</comment>
+        <data-type>int(11)</data-type>
+      </column>
+      <column id="88" parent="9" name="confirm_time">
+        <comment>确认时间</comment>
+        <data-type>int(11)</data-type>
+      </column>
+      <index id="89" parent="9" name="xg_match__accept">
+        <columns>accept_id</columns>
+        <desc-columns></desc-columns>
+      </index>
+      <index id="90" parent="9" name="xg_match__privide">
+        <columns>provide_id</columns>
+        <desc-columns></desc-columns>
+      </index>
+      <key id="91" parent="9" name="PRIMARY">
+        <columns>id</columns>
+        <primary>1</primary>
+      </key>
+      <column id="92" parent="10" name="id">
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+      </column>
+      <column id="93" parent="10" name="provide_id">
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+      </column>
+      <column id="94" parent="10" name="uid">
+        <comment>用户id</comment>
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+      </column>
+      <column id="95" parent="10" name="create_time">
+        <comment>发放时间</comment>
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+      </column>
+      <column id="96" parent="10" name="status">
+        <comment>0 :  未提取 1 已提取</comment>
+        <data-type>tinyint(4)</data-type>
+        <default-expression>&apos;0&apos;</default-expression>
+      </column>
+      <index id="97" parent="10" name="xg_interest__provide">
+        <columns>provide_id</columns>
+        <desc-columns></desc-columns>
+      </index>
+      <index id="98" parent="10" name="xg_interest__uid">
+        <columns>uid</columns>
+        <desc-columns></desc-columns>
+      </index>
+      <key id="99" parent="10" name="PRIMARY">
+        <columns>id</columns>
+        <primary>1</primary>
+      </key>
+      <column id="100" parent="11" name="uid">
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+      </column>
+      <column id="101" parent="11" name="balance">
+        <comment>余额</comment>
+        <mandatory>1</mandatory>
+        <data-type>decimal(10)</data-type>
+        <default-expression>&apos;0&apos;</default-expression>
+      </column>
+      <column id="102" parent="11" name="manager">
+        <comment>经理奖钱包</comment>
+        <mandatory>1</mandatory>
+        <data-type>decimal(10)</data-type>
+        <default-expression>&apos;0&apos;</default-expression>
+      </column>
+      <column id="103" parent="11" name="recommend">
+        <comment>推荐奖</comment>
+        <mandatory>1</mandatory>
+        <data-type>decimal(10)</data-type>
+        <default-expression>&apos;0&apos;</default-expression>
+      </column>
+      <key id="104" parent="11" name="PRIMARY">
+        <columns>uid</columns>
+        <primary>1</primary>
+      </key>
+      <column id="105" parent="12" name="id">
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+      </column>
+      <column id="106" parent="12" name="amount">
+        <comment>变动的资金</comment>
+        <mandatory>1</mandatory>
+        <data-type>decimal(10,2)</data-type>
+        <default-expression>&apos;0.00&apos;</default-expression>
+      </column>
+      <column id="107" parent="12" name="uid">
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+      </column>
+      <column id="108" parent="12" name="type">
+        <comment>0 利息  1 推荐奖 2 经理奖 3 注册奖  4 提现</comment>
+        <data-type>tinyint(4)</data-type>
+        <default-expression>&apos;0&apos;</default-expression>
+      </column>
+      <column id="109" parent="12" name="remark">
+        <comment>备注</comment>
+        <mandatory>1</mandatory>
+        <data-type>varchar(255)</data-type>
+      </column>
+      <column id="110" parent="12" name="create_time">
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+      </column>
+      <column id="111" parent="12" name="data">
+        <comment>对应提供帮助id 或者匹配ID</comment>
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+        <default-expression>&apos;0&apos;</default-expression>
+      </column>
+      <key id="112" parent="12" name="PRIMARY">
+        <columns>id</columns>
+        <primary>1</primary>
+      </key>
+      <column id="113" parent="13" name="id">
+        <mandatory>1</mandatory>
+        <data-type>bigint(20)</data-type>
+      </column>
+      <column id="114" parent="13" name="uid">
+        <comment>用户ID</comment>
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+      </column>
+      <column id="115" parent="13" name="login_ip">
+        <comment>登陆IP</comment>
+        <data-type>char(15)</data-type>
+      </column>
+      <column id="116" parent="13" name="login_time">
+        <comment>登陆时间</comment>
+        <data-type>int(11)</data-type>
+      </column>
+      <key id="117" parent="13" name="PRIMARY">
+        <columns>id</columns>
+        <primary>1</primary>
+      </key>
+    </database-model>
+  </data-source>
+</component>

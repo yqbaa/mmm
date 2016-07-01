@@ -1,0 +1,722 @@
+[01-Jul-2016 10:07:17 PRC] PHP Notice:  Undefined index: Admin_Resource_Category in /home/xiaogu/www/xiaogu/library/Common/Service/Menu.php on line 180
+[01-Jul-2016 10:07:17 PRC] PHP Stack trace:
+[01-Jul-2016 10:07:17 PRC] PHP   1. {main}() /home/xiaogu/www/xiaogu/public/admin/index.php:0
+[01-Jul-2016 10:07:17 PRC] PHP   2. Yaf_Application->run() /home/xiaogu/www/xiaogu/public/admin/index.php:8
+[01-Jul-2016 10:07:17 PRC] PHP   3. Admin_BaseController->init() /home/xiaogu/www/xiaogu/public/admin/index.php:8
+[01-Jul-2016 10:07:17 PRC] PHP   4. Admin_BaseController->checkRight() /home/xiaogu/www/xiaogu/application/controllers/Admin/Base.php:27
+[01-Jul-2016 10:07:17 PRC] PHP   5. Admin_BaseController->getUserLevels() /home/xiaogu/www/xiaogu/application/controllers/Admin/Base.php:110
+[01-Jul-2016 10:07:17 PRC] PHP   6. Common_Service_Menu->getUserLevels() /home/xiaogu/www/xiaogu/application/controllers/Admin/Base.php:166
+[01-Jul-2016 10:07:17 PRC] PHP   7. Common_Service_Menu->getMainMenu() /home/xiaogu/www/xiaogu/library/Common/Service/Menu.php:57
+[01-Jul-2016 10:07:17 PRC] PHP   8. Common_Service_Menu->formatMenu() /home/xiaogu/www/xiaogu/library/Common/Service/Menu.php:162
+[01-Jul-2016 10:07:17 PRC] PHP   9. Common_Service_Menu->formatMenu() /home/xiaogu/www/xiaogu/library/Common/Service/Menu.php:198
+[01-Jul-2016 10:07:17 PRC] PHP  10. Common_Service_Menu->formatMenu() /home/xiaogu/www/xiaogu/library/Common/Service/Menu.php:198
+[01-Jul-2016 10:07:17 PRC] PHP Notice:  Undefined index: Admin_Resource_Category in /home/xiaogu/www/xiaogu/library/Common/Service/Menu.php on line 182
+[01-Jul-2016 10:07:17 PRC] PHP Stack trace:
+[01-Jul-2016 10:07:17 PRC] PHP   1. {main}() /home/xiaogu/www/xiaogu/public/admin/index.php:0
+[01-Jul-2016 10:07:17 PRC] PHP   2. Yaf_Application->run() /home/xiaogu/www/xiaogu/public/admin/index.php:8
+[01-Jul-2016 10:07:17 PRC] PHP   3. Admin_BaseController->init() /home/xiaogu/www/xiaogu/public/admin/index.php:8
+[01-Jul-2016 10:07:17 PRC] PHP   4. Admin_BaseController->checkRight() /home/xiaogu/www/xiaogu/application/controllers/Admin/Base.php:27
+[01-Jul-2016 10:07:17 PRC] PHP   5. Admin_BaseController->getUserLevels() /home/xiaogu/www/xiaogu/application/controllers/Admin/Base.php:110
+[01-Jul-2016 10:07:17 PRC] PHP   6. Common_Service_Menu->getUserLevels() /home/xiaogu/www/xiaogu/application/controllers/Admin/Base.php:166
+[01-Jul-2016 10:07:17 PRC] PHP   7. Common_Service_Menu->getMainMenu() /home/xiaogu/www/xiaogu/library/Common/Service/Menu.php:57
+[01-Jul-2016 10:07:17 PRC] PHP   8. Common_Service_Menu->formatMenu() /home/xiaogu/www/xiaogu/library/Common/Service/Menu.php:162
+[01-Jul-2016 10:07:17 PRC] PHP   9. Common_Service_Menu->formatMenu() /home/xiaogu/www/xiaogu/library/Common/Service/Menu.php:198
+[01-Jul-2016 10:07:17 PRC] PHP  10. Common_Service_Menu->formatMenu() /home/xiaogu/www/xiaogu/library/Common/Service/Menu.php:198
+[01-Jul-2016 10:07:17 PRC] PHP Notice:  Undefined index: Admin_Resource_Attribute in /home/xiaogu/www/xiaogu/library/Common/Service/Menu.php on line 180
+[01-Jul-2016 10:07:17 PRC] PHP Stack trace:
+[01-Jul-2016 10:07:17 PRC] PHP   1. {main}() /home/xiaogu/www/xiaogu/public/admin/index.php:0
+[01-Jul-2016 10:07:17 PRC] PHP   2. Yaf_Application->run() /home/xiaogu/www/xiaogu/public/admin/index.php:8
+[01-Jul-2016 10:07:17 PRC] PHP   3. Admin_BaseController->init() /home/xiaogu/www/xiaogu/public/admin/index.php:8
+[01-Jul-2016 10:07:17 PRC] PHP   4. Admin_BaseController->checkRight() /home/xiaogu/www/xiaogu/application/controllers/Admin/Base.php:27
+[01-Jul-2016 10:07:17 PRC] PHP   5. Admin_BaseController->getUserLevels() /home/xiaogu/www/xiaogu/application/controllers/Admin/Base.php:110
+[01-Jul-2016 10:07:17 PRC] PHP   6. Common_Service_Menu->getUserLevels() /home/xiaogu/www/xiaogu/application/controllers/Admin/Base.php:166
+[01-Jul-2016 10:07:17 PRC] PHP   7. Common_Service_Menu->getMainMenu() /home/xiaogu/www/xiaogu/library/Common/Service/Menu.php:57
+[01-Jul-2016 10:07:17 PRC] PHP   8. Common_Service_Menu->formatMenu() /home/xiaogu/www/xiaogu/library/Common/Service/Menu.php:162
+[01-Jul-2016 10:07:17 PRC] PHP   9. Common_Service_Menu->formatMenu() /home/xiaogu/www/xiaogu/library/Common/Service/Menu.php:198
+[01-Jul-2016 10:07:17 PRC] PHP  10. Common_Service_Menu->formatMenu() /home/xiaogu/www/xiaogu/library/Common/Service/Menu.php:198
+[01-Jul-2016 10:07:17 PRC] PHP Notice:  Undefined index: Admin_Resource_Attribute in /home/xiaogu/www/xiaogu/library/Common/Service/Menu.php on line 182
+[01-Jul-2016 10:07:17 PRC] PHP Stack trace:
+[01-Jul-2016 10:07:17 PRC] PHP   1. {main}() /home/xiaogu/www/xiaogu/public/admin/index.php:0
+[01-Jul-2016 10:07:17 PRC] PHP   2. Yaf_Application->run() /home/xiaogu/www/xiaogu/public/admin/index.php:8
+[01-Jul-2016 10:07:17 PRC] PHP   3. Admin_BaseController->init() /home/xiaogu/www/xiaogu/public/admin/index.php:8
+[01-Jul-2016 10:07:17 PRC] PHP   4. Admin_BaseController->checkRight() /home/xiaogu/www/xiaogu/application/controllers/Admin/Base.php:27
+[01-Jul-2016 10:07:17 PRC] PHP   5. Admin_BaseController->getUserLevels() /home/xiaogu/www/xiaogu/application/controllers/Admin/Base.php:110
+[01-Jul-2016 10:07:17 PRC] PHP   6. Common_Service_Menu->getUserLevels() /home/xiaogu/www/xiaogu/application/controllers/Admin/Base.php:166
+[01-Jul-2016 10:07:17 PRC] PHP   7. Common_Service_Menu->getMainMenu() /home/xiaogu/www/xiaogu/library/Common/Service/Menu.php:57
+[01-Jul-2016 10:07:17 PRC] PHP   8. Common_Service_Menu->formatMenu() /home/xiaogu/www/xiaogu/library/Common/Service/Menu.php:162
+[01-Jul-2016 10:07:17 PRC] PHP   9. Common_Service_Menu->formatMenu() /home/xiaogu/www/xiaogu/library/Common/Service/Menu.php:198
+[01-Jul-2016 10:07:17 PRC] PHP  10. Common_Service_Menu->formatMenu() /home/xiaogu/www/xiaogu/library/Common/Service/Menu.php:198
+[01-Jul-2016 10:07:17 PRC] PHP Notice:  Undefined index: Admin_Resource_Otherattr in /home/xiaogu/www/xiaogu/library/Common/Service/Menu.php on line 180
+[01-Jul-2016 10:07:17 PRC] PHP Stack trace:
+[01-Jul-2016 10:07:17 PRC] PHP   1. {main}() /home/xiaogu/www/xiaogu/public/admin/index.php:0
+[01-Jul-2016 10:07:17 PRC] PHP   2. Yaf_Application->run() /home/xiaogu/www/xiaogu/public/admin/index.php:8
+[01-Jul-2016 10:07:17 PRC] PHP   3. Admin_BaseController->init() /home/xiaogu/www/xiaogu/public/admin/index.php:8
+[01-Jul-2016 10:07:17 PRC] PHP   4. Admin_BaseController->checkRight() /home/xiaogu/www/xiaogu/application/controllers/Admin/Base.php:27
+[01-Jul-2016 10:07:17 PRC] PHP   5. Admin_BaseController->getUserLevels() /home/xiaogu/www/xiaogu/application/controllers/Admin/Base.php:110
+[01-Jul-2016 10:07:17 PRC] PHP   6. Common_Service_Menu->getUserLevels() /home/xiaogu/www/xiaogu/application/controllers/Admin/Base.php:166
+[01-Jul-2016 10:07:17 PRC] PHP   7. Common_Service_Menu->getMainMenu() /home/xiaogu/www/xiaogu/library/Common/Service/Menu.php:57
+[01-Jul-2016 10:07:17 PRC] PHP   8. Common_Service_Menu->formatMenu() /home/xiaogu/www/xiaogu/library/Common/Service/Menu.php:162
+[01-Jul-2016 10:07:17 PRC] PHP   9. Common_Service_Menu->formatMenu() /home/xiaogu/www/xiaogu/library/Common/Service/Menu.php:198
+[01-Jul-2016 10:07:17 PRC] PHP  10. Common_Service_Menu->formatMenu() /home/xiaogu/www/xiaogu/library/Common/Service/Menu.php:198
+[01-Jul-2016 10:07:17 PRC] PHP Notice:  Undefined index: Admin_Resource_Otherattr in /home/xiaogu/www/xiaogu/library/Common/Service/Menu.php on line 182
+[01-Jul-2016 10:07:17 PRC] PHP Stack trace:
+[01-Jul-2016 10:07:17 PRC] PHP   1. {main}() /home/xiaogu/www/xiaogu/public/admin/index.php:0
+[01-Jul-2016 10:07:17 PRC] PHP   2. Yaf_Application->run() /home/xiaogu/www/xiaogu/public/admin/index.php:8
+[01-Jul-2016 10:07:17 PRC] PHP   3. Admin_BaseController->init() /home/xiaogu/www/xiaogu/public/admin/index.php:8
+[01-Jul-2016 10:07:17 PRC] PHP   4. Admin_BaseController->checkRight() /home/xiaogu/www/xiaogu/application/controllers/Admin/Base.php:27
+[01-Jul-2016 10:07:17 PRC] PHP   5. Admin_BaseController->getUserLevels() /home/xiaogu/www/xiaogu/application/controllers/Admin/Base.php:110
+[01-Jul-2016 10:07:17 PRC] PHP   6. Common_Service_Menu->getUserLevels() /home/xiaogu/www/xiaogu/application/controllers/Admin/Base.php:166
+[01-Jul-2016 10:07:17 PRC] PHP   7. Common_Service_Menu->getMainMenu() /home/xiaogu/www/xiaogu/library/Common/Service/Menu.php:57
+[01-Jul-2016 10:07:17 PRC] PHP   8. Common_Service_Menu->formatMenu() /home/xiaogu/www/xiaogu/library/Common/Service/Menu.php:162
+[01-Jul-2016 10:07:17 PRC] PHP   9. Common_Service_Menu->formatMenu() /home/xiaogu/www/xiaogu/library/Common/Service/Menu.php:198
+[01-Jul-2016 10:07:17 PRC] PHP  10. Common_Service_Menu->formatMenu() /home/xiaogu/www/xiaogu/library/Common/Service/Menu.php:198
+[01-Jul-2016 10:07:17 PRC] PHP Notice:  Undefined index: Admin_Resource_Type in /home/xiaogu/www/xiaogu/library/Common/Service/Menu.php on line 180
+[01-Jul-2016 10:07:17 PRC] PHP Stack trace:
+[01-Jul-2016 10:07:17 PRC] PHP   1. {main}() /home/xiaogu/www/xiaogu/public/admin/index.php:0
+[01-Jul-2016 10:07:17 PRC] PHP   2. Yaf_Application->run() /home/xiaogu/www/xiaogu/public/admin/index.php:8
+[01-Jul-2016 10:07:17 PRC] PHP   3. Admin_BaseController->init() /home/xiaogu/www/xiaogu/public/admin/index.php:8
+[01-Jul-2016 10:07:17 PRC] PHP   4. Admin_BaseController->checkRight() /home/xiaogu/www/xiaogu/application/controllers/Admin/Base.php:27
+[01-Jul-2016 10:07:17 PRC] PHP   5. Admin_BaseController->getUserLevels() /home/xiaogu/www/xiaogu/application/controllers/Admin/Base.php:110
+[01-Jul-2016 10:07:17 PRC] PHP   6. Common_Service_Menu->getUserLevels() /home/xiaogu/www/xiaogu/application/controllers/Admin/Base.php:166
+[01-Jul-2016 10:07:17 PRC] PHP   7. Common_Service_Menu->getMainMenu() /home/xiaogu/www/xiaogu/library/Common/Service/Menu.php:57
+[01-Jul-2016 10:07:17 PRC] PHP   8. Common_Service_Menu->formatMenu() /home/xiaogu/www/xiaogu/library/Common/Service/Menu.php:162
+[01-Jul-2016 10:07:17 PRC] PHP   9. Common_Service_Menu->formatMenu() /home/xiaogu/www/xiaogu/library/Common/Service/Menu.php:198
+[01-Jul-2016 10:07:17 PRC] PHP  10. Common_Service_Menu->formatMenu() /home/xiaogu/www/xiaogu/library/Common/Service/Menu.php:198
+[01-Jul-2016 10:07:17 PRC] PHP Notice:  Undefined index: Admin_Resource_Type in /home/xiaogu/www/xiaogu/library/Common/Service/Menu.php on line 182
+[01-Jul-2016 10:07:17 PRC] PHP Stack trace:
+[01-Jul-2016 10:07:17 PRC] PHP   1. {main}() /home/xiaogu/www/xiaogu/public/admin/index.php:0
+[01-Jul-2016 10:07:17 PRC] PHP   2. Yaf_Application->run() /home/xiaogu/www/xiaogu/public/admin/index.php:8
+[01-Jul-2016 10:07:17 PRC] PHP   3. Admin_BaseController->init() /home/xiaogu/www/xiaogu/public/admin/index.php:8
+[01-Jul-2016 10:07:17 PRC] PHP   4. Admin_BaseController->checkRight() /home/xiaogu/www/xiaogu/application/controllers/Admin/Base.php:27
+[01-Jul-2016 10:07:17 PRC] PHP   5. Admin_BaseController->getUserLevels() /home/xiaogu/www/xiaogu/application/controllers/Admin/Base.php:110
+[01-Jul-2016 10:07:17 PRC] PHP   6. Common_Service_Menu->getUserLevels() /home/xiaogu/www/xiaogu/application/controllers/Admin/Base.php:166
+[01-Jul-2016 10:07:17 PRC] PHP   7. Common_Service_Menu->getMainMenu() /home/xiaogu/www/xiaogu/library/Common/Service/Menu.php:57
+[01-Jul-2016 10:07:17 PRC] PHP   8. Common_Service_Menu->formatMenu() /home/xiaogu/www/xiaogu/library/Common/Service/Menu.php:162
+[01-Jul-2016 10:07:17 PRC] PHP   9. Common_Service_Menu->formatMenu() /home/xiaogu/www/xiaogu/library/Common/Service/Menu.php:198
+[01-Jul-2016 10:07:17 PRC] PHP  10. Common_Service_Menu->formatMenu() /home/xiaogu/www/xiaogu/library/Common/Service/Menu.php:198
+[01-Jul-2016 10:07:17 PRC] PHP Notice:  Undefined index: Admin_Resource_Pgroup in /home/xiaogu/www/xiaogu/library/Common/Service/Menu.php on line 180
+[01-Jul-2016 10:07:17 PRC] PHP Stack trace:
+[01-Jul-2016 10:07:17 PRC] PHP   1. {main}() /home/xiaogu/www/xiaogu/public/admin/index.php:0
+[01-Jul-2016 10:07:17 PRC] PHP   2. Yaf_Application->run() /home/xiaogu/www/xiaogu/public/admin/index.php:8
+[01-Jul-2016 10:07:17 PRC] PHP   3. Admin_BaseController->init() /home/xiaogu/www/xiaogu/public/admin/index.php:8
+[01-Jul-2016 10:07:17 PRC] PHP   4. Admin_BaseController->checkRight() /home/xiaogu/www/xiaogu/application/controllers/Admin/Base.php:27
+[01-Jul-2016 10:07:17 PRC] PHP   5. Admin_BaseController->getUserLevels() /home/xiaogu/www/xiaogu/application/controllers/Admin/Base.php:110
+[01-Jul-2016 10:07:17 PRC] PHP   6. Common_Service_Menu->getUserLevels() /home/xiaogu/www/xiaogu/application/controllers/Admin/Base.php:166
+[01-Jul-2016 10:07:17 PRC] PHP   7. Common_Service_Menu->getMainMenu() /home/xiaogu/www/xiaogu/library/Common/Service/Menu.php:57
+[01-Jul-2016 10:07:17 PRC] PHP   8. Common_Service_Menu->formatMenu() /home/xiaogu/www/xiaogu/library/Common/Service/Menu.php:162
+[01-Jul-2016 10:07:17 PRC] PHP   9. Common_Service_Menu->formatMenu() /home/xiaogu/www/xiaogu/library/Common/Service/Menu.php:198
+[01-Jul-2016 10:07:17 PRC] PHP  10. Common_Service_Menu->formatMenu() /home/xiaogu/www/xiaogu/library/Common/Service/Menu.php:198
+[01-Jul-2016 10:07:17 PRC] PHP Notice:  Undefined index: Admin_Resource_Pgroup in /home/xiaogu/www/xiaogu/library/Common/Service/Menu.php on line 182
+[01-Jul-2016 10:07:17 PRC] PHP Stack trace:
+[01-Jul-2016 10:07:17 PRC] PHP   1. {main}() /home/xiaogu/www/xiaogu/public/admin/index.php:0
+[01-Jul-2016 10:07:17 PRC] PHP   2. Yaf_Application->run() /home/xiaogu/www/xiaogu/public/admin/index.php:8
+[01-Jul-2016 10:07:17 PRC] PHP   3. Admin_BaseController->init() /home/xiaogu/www/xiaogu/public/admin/index.php:8
+[01-Jul-2016 10:07:17 PRC] PHP   4. Admin_BaseController->checkRight() /home/xiaogu/www/xiaogu/application/controllers/Admin/Base.php:27
+[01-Jul-2016 10:07:17 PRC] PHP   5. Admin_BaseController->getUserLevels() /home/xiaogu/www/xiaogu/application/controllers/Admin/Base.php:110
+[01-Jul-2016 10:07:17 PRC] PHP   6. Common_Service_Menu->getUserLevels() /home/xiaogu/www/xiaogu/application/controllers/Admin/Base.php:166
+[01-Jul-2016 10:07:17 PRC] PHP   7. Common_Service_Menu->getMainMenu() /home/xiaogu/www/xiaogu/library/Common/Service/Menu.php:57
+[01-Jul-2016 10:07:17 PRC] PHP   8. Common_Service_Menu->formatMenu() /home/xiaogu/www/xiaogu/library/Common/Service/Menu.php:162
+[01-Jul-2016 10:07:17 PRC] PHP   9. Common_Service_Menu->formatMenu() /home/xiaogu/www/xiaogu/library/Common/Service/Menu.php:198
+[01-Jul-2016 10:07:17 PRC] PHP  10. Common_Service_Menu->formatMenu() /home/xiaogu/www/xiaogu/library/Common/Service/Menu.php:198
+[01-Jul-2016 10:07:17 PRC] PHP Notice:  Undefined index: Admin_Resource_Label in /home/xiaogu/www/xiaogu/library/Common/Service/Menu.php on line 180
+[01-Jul-2016 10:07:17 PRC] PHP Stack trace:
+[01-Jul-2016 10:07:17 PRC] PHP   1. {main}() /home/xiaogu/www/xiaogu/public/admin/index.php:0
+[01-Jul-2016 10:07:17 PRC] PHP   2. Yaf_Application->run() /home/xiaogu/www/xiaogu/public/admin/index.php:8
+[01-Jul-2016 10:07:17 PRC] PHP   3. Admin_BaseController->init() /home/xiaogu/www/xiaogu/public/admin/index.php:8
+[01-Jul-2016 10:07:17 PRC] PHP   4. Admin_BaseController->checkRight() /home/xiaogu/www/xiaogu/application/controllers/Admin/Base.php:27
+[01-Jul-2016 10:07:17 PRC] PHP   5. Admin_BaseController->getUserLevels() /home/xiaogu/www/xiaogu/application/controllers/Admin/Base.php:110
+[01-Jul-2016 10:07:17 PRC] PHP   6. Common_Service_Menu->getUserLevels() /home/xiaogu/www/xiaogu/application/controllers/Admin/Base.php:166
+[01-Jul-2016 10:07:17 PRC] PHP   7. Common_Service_Menu->getMainMenu() /home/xiaogu/www/xiaogu/library/Common/Service/Menu.php:57
+[01-Jul-2016 10:07:17 PRC] PHP   8. Common_Service_Menu->formatMenu() /home/xiaogu/www/xiaogu/library/Common/Service/Menu.php:162
+[01-Jul-2016 10:07:17 PRC] PHP   9. Common_Service_Menu->formatMenu() /home/xiaogu/www/xiaogu/library/Common/Service/Menu.php:198
+[01-Jul-2016 10:07:17 PRC] PHP  10. Common_Service_Menu->formatMenu() /home/xiaogu/www/xiaogu/library/Common/Service/Menu.php:198
+[01-Jul-2016 10:07:17 PRC] PHP Notice:  Undefined index: Admin_Resource_Label in /home/xiaogu/www/xiaogu/library/Common/Service/Menu.php on line 182
+[01-Jul-2016 10:07:17 PRC] PHP Stack trace:
+[01-Jul-2016 10:07:17 PRC] PHP   1. {main}() /home/xiaogu/www/xiaogu/public/admin/index.php:0
+[01-Jul-2016 10:07:17 PRC] PHP   2. Yaf_Application->run() /home/xiaogu/www/xiaogu/public/admin/index.php:8
+[01-Jul-2016 10:07:17 PRC] PHP   3. Admin_BaseController->init() /home/xiaogu/www/xiaogu/public/admin/index.php:8
+[01-Jul-2016 10:07:17 PRC] PHP   4. Admin_BaseController->checkRight() /home/xiaogu/www/xiaogu/application/controllers/Admin/Base.php:27
+[01-Jul-2016 10:07:17 PRC] PHP   5. Admin_BaseController->getUserLevels() /home/xiaogu/www/xiaogu/application/controllers/Admin/Base.php:110
+[01-Jul-2016 10:07:17 PRC] PHP   6. Common_Service_Menu->getUserLevels() /home/xiaogu/www/xiaogu/application/controllers/Admin/Base.php:166
+[01-Jul-2016 10:07:17 PRC] PHP   7. Common_Service_Menu->getMainMenu() /home/xiaogu/www/xiaogu/library/Common/Service/Menu.php:57
+[01-Jul-2016 10:07:17 PRC] PHP   8. Common_Service_Menu->formatMenu() /home/xiaogu/www/xiaogu/library/Common/Service/Menu.php:162
+[01-Jul-2016 10:07:17 PRC] PHP   9. Common_Service_Menu->formatMenu() /home/xiaogu/www/xiaogu/library/Common/Service/Menu.php:198
+[01-Jul-2016 10:07:17 PRC] PHP  10. Common_Service_Menu->formatMenu() /home/xiaogu/www/xiaogu/library/Common/Service/Menu.php:198
+[01-Jul-2016 10:07:17 PRC] PHP Notice:  Undefined index: Admin_Resource_Property in /home/xiaogu/www/xiaogu/library/Common/Service/Menu.php on line 180
+[01-Jul-2016 10:07:17 PRC] PHP Stack trace:
+[01-Jul-2016 10:07:17 PRC] PHP   1. {main}() /home/xiaogu/www/xiaogu/public/admin/index.php:0
+[01-Jul-2016 10:07:17 PRC] PHP   2. Yaf_Application->run() /home/xiaogu/www/xiaogu/public/admin/index.php:8
+[01-Jul-2016 10:07:17 PRC] PHP   3. Admin_BaseController->init() /home/xiaogu/www/xiaogu/public/admin/index.php:8
+[01-Jul-2016 10:07:17 PRC] PHP   4. Admin_BaseController->checkRight() /home/xiaogu/www/xiaogu/application/controllers/Admin/Base.php:27
+[01-Jul-2016 10:07:17 PRC] PHP   5. Admin_BaseController->getUserLevels() /home/xiaogu/www/xiaogu/application/controllers/Admin/Base.php:110
+[01-Jul-2016 10:07:17 PRC] PHP   6. Common_Service_Menu->getUserLevels() /home/xiaogu/www/xiaogu/application/controllers/Admin/Base.php:166
+[01-Jul-2016 10:07:17 PRC] PHP   7. Common_Service_Menu->getMainMenu() /home/xiaogu/www/xiaogu/library/Common/Service/Menu.php:57
+[01-Jul-2016 10:07:17 PRC] PHP   8. Common_Service_Menu->formatMenu() /home/xiaogu/www/xiaogu/library/Common/Service/Menu.php:162
+[01-Jul-2016 10:07:17 PRC] PHP   9. Common_Service_Menu->formatMenu() /home/xiaogu/www/xiaogu/library/Common/Service/Menu.php:198
+[01-Jul-2016 10:07:17 PRC] PHP  10. Common_Service_Menu->formatMenu() /home/xiaogu/www/xiaogu/library/Common/Service/Menu.php:198
+[01-Jul-2016 10:07:17 PRC] PHP Notice:  Undefined index: Admin_Resource_Property in /home/xiaogu/www/xiaogu/library/Common/Service/Menu.php on line 182
+[01-Jul-2016 10:07:17 PRC] PHP Stack trace:
+[01-Jul-2016 10:07:17 PRC] PHP   1. {main}() /home/xiaogu/www/xiaogu/public/admin/index.php:0
+[01-Jul-2016 10:07:17 PRC] PHP   2. Yaf_Application->run() /home/xiaogu/www/xiaogu/public/admin/index.php:8
+[01-Jul-2016 10:07:17 PRC] PHP   3. Admin_BaseController->init() /home/xiaogu/www/xiaogu/public/admin/index.php:8
+[01-Jul-2016 10:07:17 PRC] PHP   4. Admin_BaseController->checkRight() /home/xiaogu/www/xiaogu/application/controllers/Admin/Base.php:27
+[01-Jul-2016 10:07:17 PRC] PHP   5. Admin_BaseController->getUserLevels() /home/xiaogu/www/xiaogu/application/controllers/Admin/Base.php:110
+[01-Jul-2016 10:07:17 PRC] PHP   6. Common_Service_Menu->getUserLevels() /home/xiaogu/www/xiaogu/application/controllers/Admin/Base.php:166
+[01-Jul-2016 10:07:17 PRC] PHP   7. Common_Service_Menu->getMainMenu() /home/xiaogu/www/xiaogu/library/Common/Service/Menu.php:57
+[01-Jul-2016 10:07:17 PRC] PHP   8. Common_Service_Menu->formatMenu() /home/xiaogu/www/xiaogu/library/Common/Service/Menu.php:162
+[01-Jul-2016 10:07:17 PRC] PHP   9. Common_Service_Menu->formatMenu() /home/xiaogu/www/xiaogu/library/Common/Service/Menu.php:198
+[01-Jul-2016 10:07:17 PRC] PHP  10. Common_Service_Menu->formatMenu() /home/xiaogu/www/xiaogu/library/Common/Service/Menu.php:198
+[01-Jul-2016 10:07:17 PRC] PHP Notice:  Undefined index: Admin_Resource_Upgrade in /home/xiaogu/www/xiaogu/library/Common/Service/Menu.php on line 180
+[01-Jul-2016 10:07:17 PRC] PHP Stack trace:
+[01-Jul-2016 10:07:17 PRC] PHP   1. {main}() /home/xiaogu/www/xiaogu/public/admin/index.php:0
+[01-Jul-2016 10:07:17 PRC] PHP   2. Yaf_Application->run() /home/xiaogu/www/xiaogu/public/admin/index.php:8
+[01-Jul-2016 10:07:17 PRC] PHP   3. Admin_BaseController->init() /home/xiaogu/www/xiaogu/public/admin/index.php:8
+[01-Jul-2016 10:07:17 PRC] PHP   4. Admin_BaseController->checkRight() /home/xiaogu/www/xiaogu/application/controllers/Admin/Base.php:27
+[01-Jul-2016 10:07:17 PRC] PHP   5. Admin_BaseController->getUserLevels() /home/xiaogu/www/xiaogu/application/controllers/Admin/Base.php:110
+[01-Jul-2016 10:07:17 PRC] PHP   6. Common_Service_Menu->getUserLevels() /home/xiaogu/www/xiaogu/application/controllers/Admin/Base.php:166
+[01-Jul-2016 10:07:17 PRC] PHP   7. Common_Service_Menu->getMainMenu() /home/xiaogu/www/xiaogu/library/Common/Service/Menu.php:57
+[01-Jul-2016 10:07:17 PRC] PHP   8. Common_Service_Menu->formatMenu() /home/xiaogu/www/xiaogu/library/Common/Service/Menu.php:162
+[01-Jul-2016 10:07:17 PRC] PHP   9. Common_Service_Menu->formatMenu() /home/xiaogu/www/xiaogu/library/Common/Service/Menu.php:198
+[01-Jul-2016 10:07:17 PRC] PHP  10. Common_Service_Menu->formatMenu() /home/xiaogu/www/xiaogu/library/Common/Service/Menu.php:198
+[01-Jul-2016 10:07:17 PRC] PHP Notice:  Undefined index: Admin_Resource_Upgrade in /home/xiaogu/www/xiaogu/library/Common/Service/Menu.php on line 182
+[01-Jul-2016 10:07:17 PRC] PHP Stack trace:
+[01-Jul-2016 10:07:17 PRC] PHP   1. {main}() /home/xiaogu/www/xiaogu/public/admin/index.php:0
+[01-Jul-2016 10:07:17 PRC] PHP   2. Yaf_Application->run() /home/xiaogu/www/xiaogu/public/admin/index.php:8
+[01-Jul-2016 10:07:17 PRC] PHP   3. Admin_BaseController->init() /home/xiaogu/www/xiaogu/public/admin/index.php:8
+[01-Jul-2016 10:07:17 PRC] PHP   4. Admin_BaseController->checkRight() /home/xiaogu/www/xiaogu/application/controllers/Admin/Base.php:27
+[01-Jul-2016 10:07:17 PRC] PHP   5. Admin_BaseController->getUserLevels() /home/xiaogu/www/xiaogu/application/controllers/Admin/Base.php:110
+[01-Jul-2016 10:07:17 PRC] PHP   6. Common_Service_Menu->getUserLevels() /home/xiaogu/www/xiaogu/application/controllers/Admin/Base.php:166
+[01-Jul-2016 10:07:17 PRC] PHP   7. Common_Service_Menu->getMainMenu() /home/xiaogu/www/xiaogu/library/Common/Service/Menu.php:57
+[01-Jul-2016 10:07:17 PRC] PHP   8. Common_Service_Menu->formatMenu() /home/xiaogu/www/xiaogu/library/Common/Service/Menu.php:162
+[01-Jul-2016 10:07:17 PRC] PHP   9. Common_Service_Menu->formatMenu() /home/xiaogu/www/xiaogu/library/Common/Service/Menu.php:198
+[01-Jul-2016 10:07:17 PRC] PHP  10. Common_Service_Menu->formatMenu() /home/xiaogu/www/xiaogu/library/Common/Service/Menu.php:198
+[01-Jul-2016 10:07:17 PRC] PHP Notice:  Undefined index: Admin_Resource_Games_index in /home/xiaogu/www/xiaogu/library/Common/Service/Menu.php on line 180
+[01-Jul-2016 10:07:17 PRC] PHP Stack trace:
+[01-Jul-2016 10:07:17 PRC] PHP   1. {main}() /home/xiaogu/www/xiaogu/public/admin/index.php:0
+[01-Jul-2016 10:07:17 PRC] PHP   2. Yaf_Application->run() /home/xiaogu/www/xiaogu/public/admin/index.php:8
+[01-Jul-2016 10:07:17 PRC] PHP   3. Admin_BaseController->init() /home/xiaogu/www/xiaogu/public/admin/index.php:8
+[01-Jul-2016 10:07:17 PRC] PHP   4. Admin_BaseController->checkRight() /home/xiaogu/www/xiaogu/application/controllers/Admin/Base.php:27
+[01-Jul-2016 10:07:17 PRC] PHP   5. Admin_BaseController->getUserLevels() /home/xiaogu/www/xiaogu/application/controllers/Admin/Base.php:110
+[01-Jul-2016 10:07:17 PRC] PHP   6. Common_Service_Menu->getUserLevels() /home/xiaogu/www/xiaogu/application/controllers/Admin/Base.php:166
+[01-Jul-2016 10:07:17 PRC] PHP   7. Common_Service_Menu->getMainMenu() /home/xiaogu/www/xiaogu/library/Common/Service/Menu.php:57
+[01-Jul-2016 10:07:17 PRC] PHP   8. Common_Service_Menu->formatMenu() /home/xiaogu/www/xiaogu/library/Common/Service/Menu.php:162
+[01-Jul-2016 10:07:17 PRC] PHP   9. Common_Service_Menu->formatMenu() /home/xiaogu/www/xiaogu/library/Common/Service/Menu.php:198
+[01-Jul-2016 10:07:17 PRC] PHP  10. Common_Service_Menu->formatMenu() /home/xiaogu/www/xiaogu/library/Common/Service/Menu.php:198
+[01-Jul-2016 10:07:17 PRC] PHP Notice:  Undefined index: Admin_Resource_Games_index in /home/xiaogu/www/xiaogu/library/Common/Service/Menu.php on line 182
+[01-Jul-2016 10:07:17 PRC] PHP Stack trace:
+[01-Jul-2016 10:07:17 PRC] PHP   1. {main}() /home/xiaogu/www/xiaogu/public/admin/index.php:0
+[01-Jul-2016 10:07:17 PRC] PHP   2. Yaf_Application->run() /home/xiaogu/www/xiaogu/public/admin/index.php:8
+[01-Jul-2016 10:07:17 PRC] PHP   3. Admin_BaseController->init() /home/xiaogu/www/xiaogu/public/admin/index.php:8
+[01-Jul-2016 10:07:17 PRC] PHP   4. Admin_BaseController->checkRight() /home/xiaogu/www/xiaogu/application/controllers/Admin/Base.php:27
+[01-Jul-2016 10:07:17 PRC] PHP   5. Admin_BaseController->getUserLevels() /home/xiaogu/www/xiaogu/application/controllers/Admin/Base.php:110
+[01-Jul-2016 10:07:17 PRC] PHP   6. Common_Service_Menu->getUserLevels() /home/xiaogu/www/xiaogu/application/controllers/Admin/Base.php:166
+[01-Jul-2016 10:07:17 PRC] PHP   7. Common_Service_Menu->getMainMenu() /home/xiaogu/www/xiaogu/library/Common/Service/Menu.php:57
+[01-Jul-2016 10:07:17 PRC] PHP   8. Common_Service_Menu->formatMenu() /home/xiaogu/www/xiaogu/library/Common/Service/Menu.php:162
+[01-Jul-2016 10:07:17 PRC] PHP   9. Common_Service_Menu->formatMenu() /home/xiaogu/www/xiaogu/library/Common/Service/Menu.php:198
+[01-Jul-2016 10:07:17 PRC] PHP  10. Common_Service_Menu->formatMenu() /home/xiaogu/www/xiaogu/library/Common/Service/Menu.php:198
+[01-Jul-2016 10:07:17 PRC] PHP Notice:  Undefined index: Admin_Resource_Games_entering in /home/xiaogu/www/xiaogu/library/Common/Service/Menu.php on line 180
+[01-Jul-2016 10:07:17 PRC] PHP Stack trace:
+[01-Jul-2016 10:07:17 PRC] PHP   1. {main}() /home/xiaogu/www/xiaogu/public/admin/index.php:0
+[01-Jul-2016 10:07:17 PRC] PHP   2. Yaf_Application->run() /home/xiaogu/www/xiaogu/public/admin/index.php:8
+[01-Jul-2016 10:07:17 PRC] PHP   3. Admin_BaseController->init() /home/xiaogu/www/xiaogu/public/admin/index.php:8
+[01-Jul-2016 10:07:17 PRC] PHP   4. Admin_BaseController->checkRight() /home/xiaogu/www/xiaogu/application/controllers/Admin/Base.php:27
+[01-Jul-2016 10:07:17 PRC] PHP   5. Admin_BaseController->getUserLevels() /home/xiaogu/www/xiaogu/application/controllers/Admin/Base.php:110
+[01-Jul-2016 10:07:17 PRC] PHP   6. Common_Service_Menu->getUserLevels() /home/xiaogu/www/xiaogu/application/controllers/Admin/Base.php:166
+[01-Jul-2016 10:07:17 PRC] PHP   7. Common_Service_Menu->getMainMenu() /home/xiaogu/www/xiaogu/library/Common/Service/Menu.php:57
+[01-Jul-2016 10:07:17 PRC] PHP   8. Common_Service_Menu->formatMenu() /home/xiaogu/www/xiaogu/library/Common/Service/Menu.php:162
+[01-Jul-2016 10:07:17 PRC] PHP   9. Common_Service_Menu->formatMenu() /home/xiaogu/www/xiaogu/library/Common/Service/Menu.php:198
+[01-Jul-2016 10:07:17 PRC] PHP  10. Common_Service_Menu->formatMenu() /home/xiaogu/www/xiaogu/library/Common/Service/Menu.php:198
+[01-Jul-2016 10:07:17 PRC] PHP Notice:  Undefined index: Admin_Resource_Games_entering in /home/xiaogu/www/xiaogu/library/Common/Service/Menu.php on line 182
+[01-Jul-2016 10:07:17 PRC] PHP Stack trace:
+[01-Jul-2016 10:07:17 PRC] PHP   1. {main}() /home/xiaogu/www/xiaogu/public/admin/index.php:0
+[01-Jul-2016 10:07:17 PRC] PHP   2. Yaf_Application->run() /home/xiaogu/www/xiaogu/public/admin/index.php:8
+[01-Jul-2016 10:07:17 PRC] PHP   3. Admin_BaseController->init() /home/xiaogu/www/xiaogu/public/admin/index.php:8
+[01-Jul-2016 10:07:17 PRC] PHP   4. Admin_BaseController->checkRight() /home/xiaogu/www/xiaogu/application/controllers/Admin/Base.php:27
+[01-Jul-2016 10:07:17 PRC] PHP   5. Admin_BaseController->getUserLevels() /home/xiaogu/www/xiaogu/application/controllers/Admin/Base.php:110
+[01-Jul-2016 10:07:17 PRC] PHP   6. Common_Service_Menu->getUserLevels() /home/xiaogu/www/xiaogu/application/controllers/Admin/Base.php:166
+[01-Jul-2016 10:07:17 PRC] PHP   7. Common_Service_Menu->getMainMenu() /home/xiaogu/www/xiaogu/library/Common/Service/Menu.php:57
+[01-Jul-2016 10:07:17 PRC] PHP   8. Common_Service_Menu->formatMenu() /home/xiaogu/www/xiaogu/library/Common/Service/Menu.php:162
+[01-Jul-2016 10:07:17 PRC] PHP   9. Common_Service_Menu->formatMenu() /home/xiaogu/www/xiaogu/library/Common/Service/Menu.php:198
+[01-Jul-2016 10:07:17 PRC] PHP  10. Common_Service_Menu->formatMenu() /home/xiaogu/www/xiaogu/library/Common/Service/Menu.php:198
+[01-Jul-2016 10:07:17 PRC] PHP Notice:  Undefined index: Admin_Freedl_Cugd in /home/xiaogu/www/xiaogu/library/Common/Service/Menu.php on line 180
+[01-Jul-2016 10:07:17 PRC] PHP Stack trace:
+[01-Jul-2016 10:07:17 PRC] PHP   1. {main}() /home/xiaogu/www/xiaogu/public/admin/index.php:0
+[01-Jul-2016 10:07:17 PRC] PHP   2. Yaf_Application->run() /home/xiaogu/www/xiaogu/public/admin/index.php:8
+[01-Jul-2016 10:07:17 PRC] PHP   3. Admin_BaseController->init() /home/xiaogu/www/xiaogu/public/admin/index.php:8
+[01-Jul-2016 10:07:17 PRC] PHP   4. Admin_BaseController->checkRight() /home/xiaogu/www/xiaogu/application/controllers/Admin/Base.php:27
+[01-Jul-2016 10:07:17 PRC] PHP   5. Admin_BaseController->getUserLevels() /home/xiaogu/www/xiaogu/application/controllers/Admin/Base.php:110
+[01-Jul-2016 10:07:17 PRC] PHP   6. Common_Service_Menu->getUserLevels() /home/xiaogu/www/xiaogu/application/controllers/Admin/Base.php:166
+[01-Jul-2016 10:07:17 PRC] PHP   7. Common_Service_Menu->getMainMenu() /home/xiaogu/www/xiaogu/library/Common/Service/Menu.php:57
+[01-Jul-2016 10:07:17 PRC] PHP   8. Common_Service_Menu->formatMenu() /home/xiaogu/www/xiaogu/library/Common/Service/Menu.php:162
+[01-Jul-2016 10:07:17 PRC] PHP   9. Common_Service_Menu->formatMenu() /home/xiaogu/www/xiaogu/library/Common/Service/Menu.php:198
+[01-Jul-2016 10:07:17 PRC] PHP  10. Common_Service_Menu->formatMenu() /home/xiaogu/www/xiaogu/library/Common/Service/Menu.php:198
+[01-Jul-2016 10:07:17 PRC] PHP Notice:  Undefined index: Admin_Freedl_Cugd in /home/xiaogu/www/xiaogu/library/Common/Service/Menu.php on line 182
+[01-Jul-2016 10:07:17 PRC] PHP Stack trace:
+[01-Jul-2016 10:07:17 PRC] PHP   1. {main}() /home/xiaogu/www/xiaogu/public/admin/index.php:0
+[01-Jul-2016 10:07:17 PRC] PHP   2. Yaf_Application->run() /home/xiaogu/www/xiaogu/public/admin/index.php:8
+[01-Jul-2016 10:07:17 PRC] PHP   3. Admin_BaseController->init() /home/xiaogu/www/xiaogu/public/admin/index.php:8
+[01-Jul-2016 10:07:17 PRC] PHP   4. Admin_BaseController->checkRight() /home/xiaogu/www/xiaogu/application/controllers/Admin/Base.php:27
+[01-Jul-2016 10:07:17 PRC] PHP   5. Admin_BaseController->getUserLevels() /home/xiaogu/www/xiaogu/application/controllers/Admin/Base.php:110
+[01-Jul-2016 10:07:17 PRC] PHP   6. Common_Service_Menu->getUserLevels() /home/xiaogu/www/xiaogu/application/controllers/Admin/Base.php:166
+[01-Jul-2016 10:07:17 PRC] PHP   7. Common_Service_Menu->getMainMenu() /home/xiaogu/www/xiaogu/library/Common/Service/Menu.php:57
+[01-Jul-2016 10:07:17 PRC] PHP   8. Common_Service_Menu->formatMenu() /home/xiaogu/www/xiaogu/library/Common/Service/Menu.php:162
+[01-Jul-2016 10:07:17 PRC] PHP   9. Common_Service_Menu->formatMenu() /home/xiaogu/www/xiaogu/library/Common/Service/Menu.php:198
+[01-Jul-2016 10:07:17 PRC] PHP  10. Common_Service_Menu->formatMenu() /home/xiaogu/www/xiaogu/library/Common/Service/Menu.php:198
+[01-Jul-2016 10:07:17 PRC] PHP Notice:  Undefined index: Admin_Resource_Sync_index in /home/xiaogu/www/xiaogu/library/Common/Service/Menu.php on line 180
+[01-Jul-2016 10:07:17 PRC] PHP Stack trace:
+[01-Jul-2016 10:07:17 PRC] PHP   1. {main}() /home/xiaogu/www/xiaogu/public/admin/index.php:0
+[01-Jul-2016 10:07:17 PRC] PHP   2. Yaf_Application->run() /home/xiaogu/www/xiaogu/public/admin/index.php:8
+[01-Jul-2016 10:07:17 PRC] PHP   3. Admin_BaseController->init() /home/xiaogu/www/xiaogu/public/admin/index.php:8
+[01-Jul-2016 10:07:17 PRC] PHP   4. Admin_BaseController->checkRight() /home/xiaogu/www/xiaogu/application/controllers/Admin/Base.php:27
+[01-Jul-2016 10:07:17 PRC] PHP   5. Admin_BaseController->getUserLevels() /home/xiaogu/www/xiaogu/application/controllers/Admin/Base.php:110
+[01-Jul-2016 10:07:17 PRC] PHP   6. Common_Service_Menu->getUserLevels() /home/xiaogu/www/xiaogu/application/controllers/Admin/Base.php:166
+[01-Jul-2016 10:07:17 PRC] PHP   7. Common_Service_Menu->getMainMenu() /home/xiaogu/www/xiaogu/library/Common/Service/Menu.php:57
+[01-Jul-2016 10:07:17 PRC] PHP   8. Common_Service_Menu->formatMenu() /home/xiaogu/www/xiaogu/library/Common/Service/Menu.php:162
+[01-Jul-2016 10:07:17 PRC] PHP   9. Common_Service_Menu->formatMenu() /home/xiaogu/www/xiaogu/library/Common/Service/Menu.php:198
+[01-Jul-2016 10:07:17 PRC] PHP  10. Common_Service_Menu->formatMenu() /home/xiaogu/www/xiaogu/library/Common/Service/Menu.php:198
+[01-Jul-2016 10:07:17 PRC] PHP Notice:  Undefined index: Admin_Resource_Sync_index in /home/xiaogu/www/xiaogu/library/Common/Service/Menu.php on line 182
+[01-Jul-2016 10:07:17 PRC] PHP Stack trace:
+[01-Jul-2016 10:07:17 PRC] PHP   1. {main}() /home/xiaogu/www/xiaogu/public/admin/index.php:0
+[01-Jul-2016 10:07:17 PRC] PHP   2. Yaf_Application->run() /home/xiaogu/www/xiaogu/public/admin/index.php:8
+[01-Jul-2016 10:07:17 PRC] PHP   3. Admin_BaseController->init() /home/xiaogu/www/xiaogu/public/admin/index.php:8
+[01-Jul-2016 10:07:17 PRC] PHP   4. Admin_BaseController->checkRight() /home/xiaogu/www/xiaogu/application/controllers/Admin/Base.php:27
+[01-Jul-2016 10:07:17 PRC] PHP   5. Admin_BaseController->getUserLevels() /home/xiaogu/www/xiaogu/application/controllers/Admin/Base.php:110
+[01-Jul-2016 10:07:17 PRC] PHP   6. Common_Service_Menu->getUserLevels() /home/xiaogu/www/xiaogu/application/controllers/Admin/Base.php:166
+[01-Jul-2016 10:07:17 PRC] PHP   7. Common_Service_Menu->getMainMenu() /home/xiaogu/www/xiaogu/library/Common/Service/Menu.php:57
+[01-Jul-2016 10:07:17 PRC] PHP   8. Common_Service_Menu->formatMenu() /home/xiaogu/www/xiaogu/library/Common/Service/Menu.php:162
+[01-Jul-2016 10:07:17 PRC] PHP   9. Common_Service_Menu->formatMenu() /home/xiaogu/www/xiaogu/library/Common/Service/Menu.php:198
+[01-Jul-2016 10:07:17 PRC] PHP  10. Common_Service_Menu->formatMenu() /home/xiaogu/www/xiaogu/library/Common/Service/Menu.php:198
+[01-Jul-2016 10:07:17 PRC] PHP Notice:  Undefined property: Client_MemberController::$appCacheName in /home/xiaogu/www/xiaogu/application/controllers/Admin/Base.php on line 47
+[01-Jul-2016 10:07:17 PRC] PHP Stack trace:
+[01-Jul-2016 10:07:17 PRC] PHP   1. {main}() /home/xiaogu/www/xiaogu/public/admin/index.php:0
+[01-Jul-2016 10:07:17 PRC] PHP   2. Yaf_Application->run() /home/xiaogu/www/xiaogu/public/admin/index.php:8
+[01-Jul-2016 10:07:17 PRC] PHP   3. Admin_BaseController->init() /home/xiaogu/www/xiaogu/public/admin/index.php:8
+[01-Jul-2016 10:07:17 PRC] PHP   4. Admin_BaseController->updateAppCache() /home/xiaogu/www/xiaogu/application/controllers/Admin/Base.php:29
+[01-Jul-2016 10:07:17 PRC] PHP Notice:  Undefined property: Client_MemberController::$versionName in /home/xiaogu/www/xiaogu/application/controllers/Admin/Base.php on line 77
+[01-Jul-2016 10:07:17 PRC] PHP Stack trace:
+[01-Jul-2016 10:07:17 PRC] PHP   1. {main}() /home/xiaogu/www/xiaogu/public/admin/index.php:0
+[01-Jul-2016 10:07:17 PRC] PHP   2. Yaf_Application->run() /home/xiaogu/www/xiaogu/public/admin/index.php:8
+[01-Jul-2016 10:07:17 PRC] PHP   3. Admin_BaseController->init() /home/xiaogu/www/xiaogu/public/admin/index.php:8
+[01-Jul-2016 10:07:17 PRC] PHP   4. Admin_BaseController->updateVersion() /home/xiaogu/www/xiaogu/application/controllers/Admin/Base.php:31
+[01-Jul-2016 10:07:17 PRC] PHP Notice:  Undefined index: e8e9fc212f6af821d56d19ec84cbcc6c in /home/xiaogu/www/xiaogu/library/Common/Dao/Factory.php on line 21
+[01-Jul-2016 10:07:17 PRC] PHP Stack trace:
+[01-Jul-2016 10:07:17 PRC] PHP   1. {main}() /home/xiaogu/www/xiaogu/public/admin/index.php:0
+[01-Jul-2016 10:07:17 PRC] PHP   2. Yaf_Application->run() /home/xiaogu/www/xiaogu/public/admin/index.php:8
+[01-Jul-2016 10:07:17 PRC] PHP   3. Client_MemberController->indexAction() /home/xiaogu/www/xiaogu/public/admin/index.php:8
+[01-Jul-2016 10:07:17 PRC] PHP   4. Member_Service_Member::getList() /home/xiaogu/www/xiaogu/application/modules/Admin/controllers/Client/Member.php:16
+[01-Jul-2016 10:07:17 PRC] PHP   5. Member_Service_Member::_getDao() /home/xiaogu/www/xiaogu/library/Member/Service/Member.php:15
+[01-Jul-2016 10:07:17 PRC] PHP   6. Common::getDao() /home/xiaogu/www/xiaogu/library/Member/Service/Member.php:48
+[01-Jul-2016 10:07:17 PRC] PHP   7. Common_Dao_Factory::getDao() /home/xiaogu/www/xiaogu/library/Common.php:25
+[01-Jul-2016 10:07:17 PRC] PHP Catchable fatal error:  Argument 3 passed to Common_Dao_Base::getList() must be of the type array, null given, called in /home/xiaogu/www/xiaogu/library/Member/Service/Member.php on line 15 and defined in /home/xiaogu/www/xiaogu/library/Common/Dao/Base.php on line 123
+[01-Jul-2016 10:07:17 PRC] PHP Stack trace:
+[01-Jul-2016 10:07:17 PRC] PHP   1. {main}() /home/xiaogu/www/xiaogu/public/admin/index.php:0
+[01-Jul-2016 10:07:17 PRC] PHP   2. Yaf_Application->run() /home/xiaogu/www/xiaogu/public/admin/index.php:8
+[01-Jul-2016 10:07:17 PRC] PHP   3. Client_MemberController->indexAction() /home/xiaogu/www/xiaogu/public/admin/index.php:8
+[01-Jul-2016 10:07:17 PRC] PHP   4. Member_Service_Member::getList() /home/xiaogu/www/xiaogu/application/modules/Admin/controllers/Client/Member.php:16
+[01-Jul-2016 10:07:17 PRC] PHP   5. Common_Dao_Base->getList() /home/xiaogu/www/xiaogu/library/Member/Service/Member.php:15
+[01-Jul-2016 10:10:00 PRC] PHP Notice:  Undefined property: Client_MemberController::$appCacheName in /home/xiaogu/www/xiaogu/application/controllers/Admin/Base.php on line 47
+[01-Jul-2016 10:10:00 PRC] PHP Stack trace:
+[01-Jul-2016 10:10:00 PRC] PHP   1. {main}() /home/xiaogu/www/xiaogu/public/admin/index.php:0
+[01-Jul-2016 10:10:00 PRC] PHP   2. Yaf_Application->run() /home/xiaogu/www/xiaogu/public/admin/index.php:8
+[01-Jul-2016 10:10:00 PRC] PHP   3. Admin_BaseController->init() /home/xiaogu/www/xiaogu/public/admin/index.php:8
+[01-Jul-2016 10:10:00 PRC] PHP   4. Admin_BaseController->updateAppCache() /home/xiaogu/www/xiaogu/application/controllers/Admin/Base.php:29
+[01-Jul-2016 10:10:00 PRC] PHP Notice:  Undefined property: Client_MemberController::$versionName in /home/xiaogu/www/xiaogu/application/controllers/Admin/Base.php on line 77
+[01-Jul-2016 10:10:00 PRC] PHP Stack trace:
+[01-Jul-2016 10:10:00 PRC] PHP   1. {main}() /home/xiaogu/www/xiaogu/public/admin/index.php:0
+[01-Jul-2016 10:10:00 PRC] PHP   2. Yaf_Application->run() /home/xiaogu/www/xiaogu/public/admin/index.php:8
+[01-Jul-2016 10:10:00 PRC] PHP   3. Admin_BaseController->init() /home/xiaogu/www/xiaogu/public/admin/index.php:8
+[01-Jul-2016 10:10:00 PRC] PHP   4. Admin_BaseController->updateVersion() /home/xiaogu/www/xiaogu/application/controllers/Admin/Base.php:31
+[01-Jul-2016 10:10:00 PRC] PHP Notice:  Undefined index: e8e9fc212f6af821d56d19ec84cbcc6c in /home/xiaogu/www/xiaogu/library/Common/Dao/Factory.php on line 21
+[01-Jul-2016 10:10:00 PRC] PHP Stack trace:
+[01-Jul-2016 10:10:00 PRC] PHP   1. {main}() /home/xiaogu/www/xiaogu/public/admin/index.php:0
+[01-Jul-2016 10:10:00 PRC] PHP   2. Yaf_Application->run() /home/xiaogu/www/xiaogu/public/admin/index.php:8
+[01-Jul-2016 10:10:00 PRC] PHP   3. Client_MemberController->indexAction() /home/xiaogu/www/xiaogu/public/admin/index.php:8
+[01-Jul-2016 10:10:00 PRC] PHP   4. Member_Service_Member::getList() /home/xiaogu/www/xiaogu/application/modules/Admin/controllers/Client/Member.php:16
+[01-Jul-2016 10:10:00 PRC] PHP   5. Member_Service_Member::_getDao() /home/xiaogu/www/xiaogu/library/Member/Service/Member.php:15
+[01-Jul-2016 10:10:00 PRC] PHP   6. Common::getDao() /home/xiaogu/www/xiaogu/library/Member/Service/Member.php:48
+[01-Jul-2016 10:10:00 PRC] PHP   7. Common_Dao_Factory::getDao() /home/xiaogu/www/xiaogu/library/Common.php:25
+[01-Jul-2016 10:10:00 PRC] PHP Catchable fatal error:  Argument 3 passed to Common_Dao_Base::getList() must be of the type array, null given, called in /home/xiaogu/www/xiaogu/library/Member/Service/Member.php on line 15 and defined in /home/xiaogu/www/xiaogu/library/Common/Dao/Base.php on line 123
+[01-Jul-2016 10:10:00 PRC] PHP Stack trace:
+[01-Jul-2016 10:10:00 PRC] PHP   1. {main}() /home/xiaogu/www/xiaogu/public/admin/index.php:0
+[01-Jul-2016 10:10:00 PRC] PHP   2. Yaf_Application->run() /home/xiaogu/www/xiaogu/public/admin/index.php:8
+[01-Jul-2016 10:10:00 PRC] PHP   3. Client_MemberController->indexAction() /home/xiaogu/www/xiaogu/public/admin/index.php:8
+[01-Jul-2016 10:10:00 PRC] PHP   4. Member_Service_Member::getList() /home/xiaogu/www/xiaogu/application/modules/Admin/controllers/Client/Member.php:16
+[01-Jul-2016 10:10:00 PRC] PHP   5. Common_Dao_Base->getList() /home/xiaogu/www/xiaogu/library/Member/Service/Member.php:15
+[01-Jul-2016 10:10:44 PRC] PHP Notice:  Undefined index: e8e9fc212f6af821d56d19ec84cbcc6c in /home/xiaogu/www/xiaogu/library/Common/Dao/Factory.php on line 21
+[01-Jul-2016 10:10:44 PRC] PHP Stack trace:
+[01-Jul-2016 10:10:44 PRC] PHP   1. {main}() /home/xiaogu/www/xiaogu/public/admin/index.php:0
+[01-Jul-2016 10:10:44 PRC] PHP   2. Yaf_Application->run() /home/xiaogu/www/xiaogu/public/admin/index.php:8
+[01-Jul-2016 10:10:44 PRC] PHP   3. Client_MemberController->indexAction() /home/xiaogu/www/xiaogu/public/admin/index.php:8
+[01-Jul-2016 10:10:44 PRC] PHP   4. Member_Service_Member::getList() /home/xiaogu/www/xiaogu/application/modules/Admin/controllers/Client/Member.php:16
+[01-Jul-2016 10:10:44 PRC] PHP   5. Member_Service_Member::_getDao() /home/xiaogu/www/xiaogu/library/Member/Service/Member.php:15
+[01-Jul-2016 10:10:44 PRC] PHP   6. Common::getDao() /home/xiaogu/www/xiaogu/library/Member/Service/Member.php:48
+[01-Jul-2016 10:10:44 PRC] PHP   7. Common_Dao_Factory::getDao() /home/xiaogu/www/xiaogu/library/Common.php:25
+[01-Jul-2016 10:10:44 PRC] PHP Catchable fatal error:  Argument 3 passed to Common_Dao_Base::getList() must be of the type array, null given, called in /home/xiaogu/www/xiaogu/library/Member/Service/Member.php on line 15 and defined in /home/xiaogu/www/xiaogu/library/Common/Dao/Base.php on line 123
+[01-Jul-2016 10:10:44 PRC] PHP Stack trace:
+[01-Jul-2016 10:10:44 PRC] PHP   1. {main}() /home/xiaogu/www/xiaogu/public/admin/index.php:0
+[01-Jul-2016 10:10:44 PRC] PHP   2. Yaf_Application->run() /home/xiaogu/www/xiaogu/public/admin/index.php:8
+[01-Jul-2016 10:10:44 PRC] PHP   3. Client_MemberController->indexAction() /home/xiaogu/www/xiaogu/public/admin/index.php:8
+[01-Jul-2016 10:10:44 PRC] PHP   4. Member_Service_Member::getList() /home/xiaogu/www/xiaogu/application/modules/Admin/controllers/Client/Member.php:16
+[01-Jul-2016 10:10:44 PRC] PHP   5. Common_Dao_Base->getList() /home/xiaogu/www/xiaogu/library/Member/Service/Member.php:15
+[01-Jul-2016 10:11:01 PRC] PHP Notice:  Undefined index: e8e9fc212f6af821d56d19ec84cbcc6c in /home/xiaogu/www/xiaogu/library/Common/Dao/Factory.php on line 21
+[01-Jul-2016 10:11:01 PRC] PHP Stack trace:
+[01-Jul-2016 10:11:01 PRC] PHP   1. {main}() /home/xiaogu/www/xiaogu/public/admin/index.php:0
+[01-Jul-2016 10:11:01 PRC] PHP   2. Yaf_Application->run() /home/xiaogu/www/xiaogu/public/admin/index.php:8
+[01-Jul-2016 10:11:01 PRC] PHP   3. Client_MemberController->indexAction() /home/xiaogu/www/xiaogu/public/admin/index.php:8
+[01-Jul-2016 10:11:01 PRC] PHP   4. Member_Service_Member::getList() /home/xiaogu/www/xiaogu/application/modules/Admin/controllers/Client/Member.php:16
+[01-Jul-2016 10:11:01 PRC] PHP   5. Member_Service_Member::_getDao() /home/xiaogu/www/xiaogu/library/Member/Service/Member.php:15
+[01-Jul-2016 10:11:01 PRC] PHP   6. Common::getDao() /home/xiaogu/www/xiaogu/library/Member/Service/Member.php:48
+[01-Jul-2016 10:11:01 PRC] PHP   7. Common_Dao_Factory::getDao() /home/xiaogu/www/xiaogu/library/Common.php:25
+[01-Jul-2016 10:11:01 PRC] PHP Catchable fatal error:  Argument 3 passed to Common_Dao_Base::getList() must be of the type array, null given, called in /home/xiaogu/www/xiaogu/library/Member/Service/Member.php on line 15 and defined in /home/xiaogu/www/xiaogu/library/Common/Dao/Base.php on line 123
+[01-Jul-2016 10:11:01 PRC] PHP Stack trace:
+[01-Jul-2016 10:11:01 PRC] PHP   1. {main}() /home/xiaogu/www/xiaogu/public/admin/index.php:0
+[01-Jul-2016 10:11:01 PRC] PHP   2. Yaf_Application->run() /home/xiaogu/www/xiaogu/public/admin/index.php:8
+[01-Jul-2016 10:11:01 PRC] PHP   3. Client_MemberController->indexAction() /home/xiaogu/www/xiaogu/public/admin/index.php:8
+[01-Jul-2016 10:11:01 PRC] PHP   4. Member_Service_Member::getList() /home/xiaogu/www/xiaogu/application/modules/Admin/controllers/Client/Member.php:16
+[01-Jul-2016 10:11:01 PRC] PHP   5. Common_Dao_Base->getList() /home/xiaogu/www/xiaogu/library/Member/Service/Member.php:15
+[01-Jul-2016 10:11:48 PRC] PHP Notice:  Undefined index: e8e9fc212f6af821d56d19ec84cbcc6c in /home/xiaogu/www/xiaogu/library/Common/Dao/Factory.php on line 21
+[01-Jul-2016 10:11:48 PRC] PHP Stack trace:
+[01-Jul-2016 10:11:48 PRC] PHP   1. {main}() /home/xiaogu/www/xiaogu/public/admin/index.php:0
+[01-Jul-2016 10:11:48 PRC] PHP   2. Yaf_Application->run() /home/xiaogu/www/xiaogu/public/admin/index.php:8
+[01-Jul-2016 10:11:48 PRC] PHP   3. Client_MemberController->indexAction() /home/xiaogu/www/xiaogu/public/admin/index.php:8
+[01-Jul-2016 10:11:48 PRC] PHP   4. Member_Service_Member::getList() /home/xiaogu/www/xiaogu/application/modules/Admin/controllers/Client/Member.php:16
+[01-Jul-2016 10:11:48 PRC] PHP   5. Member_Service_Member::_getDao() /home/xiaogu/www/xiaogu/library/Member/Service/Member.php:15
+[01-Jul-2016 10:11:48 PRC] PHP   6. Common::getDao() /home/xiaogu/www/xiaogu/library/Member/Service/Member.php:48
+[01-Jul-2016 10:11:48 PRC] PHP   7. Common_Dao_Factory::getDao() /home/xiaogu/www/xiaogu/library/Common.php:25
+[01-Jul-2016 10:11:48 PRC] PHP Catchable fatal error:  Argument 3 passed to Common_Dao_Base::getList() must be of the type array, null given, called in /home/xiaogu/www/xiaogu/library/Member/Service/Member.php on line 15 and defined in /home/xiaogu/www/xiaogu/library/Common/Dao/Base.php on line 123
+[01-Jul-2016 10:11:48 PRC] PHP Stack trace:
+[01-Jul-2016 10:11:48 PRC] PHP   1. {main}() /home/xiaogu/www/xiaogu/public/admin/index.php:0
+[01-Jul-2016 10:11:48 PRC] PHP   2. Yaf_Application->run() /home/xiaogu/www/xiaogu/public/admin/index.php:8
+[01-Jul-2016 10:11:48 PRC] PHP   3. Client_MemberController->indexAction() /home/xiaogu/www/xiaogu/public/admin/index.php:8
+[01-Jul-2016 10:11:48 PRC] PHP   4. Member_Service_Member::getList() /home/xiaogu/www/xiaogu/application/modules/Admin/controllers/Client/Member.php:16
+[01-Jul-2016 10:11:48 PRC] PHP   5. Common_Dao_Base->getList() /home/xiaogu/www/xiaogu/library/Member/Service/Member.php:15
+[01-Jul-2016 10:12:12 PRC] PHP Notice:  Undefined index: e8e9fc212f6af821d56d19ec84cbcc6c in /home/xiaogu/www/xiaogu/library/Common/Dao/Factory.php on line 21
+[01-Jul-2016 10:12:12 PRC] PHP Stack trace:
+[01-Jul-2016 10:12:12 PRC] PHP   1. {main}() /home/xiaogu/www/xiaogu/public/admin/index.php:0
+[01-Jul-2016 10:12:12 PRC] PHP   2. Yaf_Application->run() /home/xiaogu/www/xiaogu/public/admin/index.php:8
+[01-Jul-2016 10:12:12 PRC] PHP   3. Client_MemberController->indexAction() /home/xiaogu/www/xiaogu/public/admin/index.php:8
+[01-Jul-2016 10:12:12 PRC] PHP   4. Member_Service_Member::getList() /home/xiaogu/www/xiaogu/application/modules/Admin/controllers/Client/Member.php:17
+[01-Jul-2016 10:12:12 PRC] PHP   5. Member_Service_Member::_getDao() /home/xiaogu/www/xiaogu/library/Member/Service/Member.php:15
+[01-Jul-2016 10:12:12 PRC] PHP   6. Common::getDao() /home/xiaogu/www/xiaogu/library/Member/Service/Member.php:48
+[01-Jul-2016 10:12:12 PRC] PHP   7. Common_Dao_Factory::getDao() /home/xiaogu/www/xiaogu/library/Common.php:25
+[01-Jul-2016 10:12:12 PRC] PHP Catchable fatal error:  Argument 3 passed to Common_Dao_Base::getList() must be of the type array, null given, called in /home/xiaogu/www/xiaogu/library/Member/Service/Member.php on line 15 and defined in /home/xiaogu/www/xiaogu/library/Common/Dao/Base.php on line 123
+[01-Jul-2016 10:12:12 PRC] PHP Stack trace:
+[01-Jul-2016 10:12:12 PRC] PHP   1. {main}() /home/xiaogu/www/xiaogu/public/admin/index.php:0
+[01-Jul-2016 10:12:12 PRC] PHP   2. Yaf_Application->run() /home/xiaogu/www/xiaogu/public/admin/index.php:8
+[01-Jul-2016 10:12:12 PRC] PHP   3. Client_MemberController->indexAction() /home/xiaogu/www/xiaogu/public/admin/index.php:8
+[01-Jul-2016 10:12:12 PRC] PHP   4. Member_Service_Member::getList() /home/xiaogu/www/xiaogu/application/modules/Admin/controllers/Client/Member.php:17
+[01-Jul-2016 10:12:12 PRC] PHP   5. Common_Dao_Base->getList() /home/xiaogu/www/xiaogu/library/Member/Service/Member.php:15
+[01-Jul-2016 10:12:22 PRC] PHP Notice:  Undefined index: e8e9fc212f6af821d56d19ec84cbcc6c in /home/xiaogu/www/xiaogu/library/Common/Dao/Factory.php on line 21
+[01-Jul-2016 10:12:22 PRC] PHP Stack trace:
+[01-Jul-2016 10:12:22 PRC] PHP   1. {main}() /home/xiaogu/www/xiaogu/public/admin/index.php:0
+[01-Jul-2016 10:12:22 PRC] PHP   2. Yaf_Application->run() /home/xiaogu/www/xiaogu/public/admin/index.php:8
+[01-Jul-2016 10:12:22 PRC] PHP   3. Client_MemberController->indexAction() /home/xiaogu/www/xiaogu/public/admin/index.php:8
+[01-Jul-2016 10:12:22 PRC] PHP   4. Member_Service_Member::getList() /home/xiaogu/www/xiaogu/application/modules/Admin/controllers/Client/Member.php:17
+[01-Jul-2016 10:12:22 PRC] PHP   5. Member_Service_Member::_getDao() /home/xiaogu/www/xiaogu/library/Member/Service/Member.php:15
+[01-Jul-2016 10:12:22 PRC] PHP   6. Common::getDao() /home/xiaogu/www/xiaogu/library/Member/Service/Member.php:48
+[01-Jul-2016 10:12:22 PRC] PHP   7. Common_Dao_Factory::getDao() /home/xiaogu/www/xiaogu/library/Common.php:25
+[01-Jul-2016 10:12:22 PRC] PHP Catchable fatal error:  Argument 3 passed to Common_Dao_Base::getList() must be of the type array, null given, called in /home/xiaogu/www/xiaogu/library/Member/Service/Member.php on line 15 and defined in /home/xiaogu/www/xiaogu/library/Common/Dao/Base.php on line 123
+[01-Jul-2016 10:12:22 PRC] PHP Stack trace:
+[01-Jul-2016 10:12:22 PRC] PHP   1. {main}() /home/xiaogu/www/xiaogu/public/admin/index.php:0
+[01-Jul-2016 10:12:22 PRC] PHP   2. Yaf_Application->run() /home/xiaogu/www/xiaogu/public/admin/index.php:8
+[01-Jul-2016 10:12:22 PRC] PHP   3. Client_MemberController->indexAction() /home/xiaogu/www/xiaogu/public/admin/index.php:8
+[01-Jul-2016 10:12:22 PRC] PHP   4. Member_Service_Member::getList() /home/xiaogu/www/xiaogu/application/modules/Admin/controllers/Client/Member.php:17
+[01-Jul-2016 10:12:22 PRC] PHP   5. Common_Dao_Base->getList() /home/xiaogu/www/xiaogu/library/Member/Service/Member.php:15
+[01-Jul-2016 10:12:29 PRC] PHP Notice:  Undefined index: e8e9fc212f6af821d56d19ec84cbcc6c in /home/xiaogu/www/xiaogu/library/Common/Dao/Factory.php on line 21
+[01-Jul-2016 10:12:29 PRC] PHP Stack trace:
+[01-Jul-2016 10:12:29 PRC] PHP   1. {main}() /home/xiaogu/www/xiaogu/public/admin/index.php:0
+[01-Jul-2016 10:12:29 PRC] PHP   2. Yaf_Application->run() /home/xiaogu/www/xiaogu/public/admin/index.php:8
+[01-Jul-2016 10:12:29 PRC] PHP   3. Client_MemberController->indexAction() /home/xiaogu/www/xiaogu/public/admin/index.php:8
+[01-Jul-2016 10:12:29 PRC] PHP   4. Member_Service_Member::getList() /home/xiaogu/www/xiaogu/application/modules/Admin/controllers/Client/Member.php:17
+[01-Jul-2016 10:12:29 PRC] PHP   5. Member_Service_Member::_getDao() /home/xiaogu/www/xiaogu/library/Member/Service/Member.php:15
+[01-Jul-2016 10:12:29 PRC] PHP   6. Common::getDao() /home/xiaogu/www/xiaogu/library/Member/Service/Member.php:48
+[01-Jul-2016 10:12:29 PRC] PHP   7. Common_Dao_Factory::getDao() /home/xiaogu/www/xiaogu/library/Common.php:25
+[01-Jul-2016 10:12:29 PRC] PHP Catchable fatal error:  Argument 3 passed to Common_Dao_Base::getList() must be of the type array, null given, called in /home/xiaogu/www/xiaogu/library/Member/Service/Member.php on line 15 and defined in /home/xiaogu/www/xiaogu/library/Common/Dao/Base.php on line 123
+[01-Jul-2016 10:12:29 PRC] PHP Stack trace:
+[01-Jul-2016 10:12:29 PRC] PHP   1. {main}() /home/xiaogu/www/xiaogu/public/admin/index.php:0
+[01-Jul-2016 10:12:29 PRC] PHP   2. Yaf_Application->run() /home/xiaogu/www/xiaogu/public/admin/index.php:8
+[01-Jul-2016 10:12:29 PRC] PHP   3. Client_MemberController->indexAction() /home/xiaogu/www/xiaogu/public/admin/index.php:8
+[01-Jul-2016 10:12:29 PRC] PHP   4. Member_Service_Member::getList() /home/xiaogu/www/xiaogu/application/modules/Admin/controllers/Client/Member.php:17
+[01-Jul-2016 10:12:29 PRC] PHP   5. Common_Dao_Base->getList() /home/xiaogu/www/xiaogu/library/Member/Service/Member.php:15
+[01-Jul-2016 10:12:45 PRC] PHP Notice:  Undefined index: e8e9fc212f6af821d56d19ec84cbcc6c in /home/xiaogu/www/xiaogu/library/Common/Dao/Factory.php on line 21
+[01-Jul-2016 10:12:45 PRC] PHP Stack trace:
+[01-Jul-2016 10:12:45 PRC] PHP   1. {main}() /home/xiaogu/www/xiaogu/public/admin/index.php:0
+[01-Jul-2016 10:12:45 PRC] PHP   2. Yaf_Application->run() /home/xiaogu/www/xiaogu/public/admin/index.php:8
+[01-Jul-2016 10:12:45 PRC] PHP   3. Client_MemberController->indexAction() /home/xiaogu/www/xiaogu/public/admin/index.php:8
+[01-Jul-2016 10:12:45 PRC] PHP   4. Member_Service_Member::getList() /home/xiaogu/www/xiaogu/application/modules/Admin/controllers/Client/Member.php:16
+[01-Jul-2016 10:12:45 PRC] PHP   5. Member_Service_Member::_getDao() /home/xiaogu/www/xiaogu/library/Member/Service/Member.php:15
+[01-Jul-2016 10:12:45 PRC] PHP   6. Common::getDao() /home/xiaogu/www/xiaogu/library/Member/Service/Member.php:48
+[01-Jul-2016 10:12:45 PRC] PHP   7. Common_Dao_Factory::getDao() /home/xiaogu/www/xiaogu/library/Common.php:25
+[01-Jul-2016 10:12:45 PRC] PHP Notice:  Undefined variable: listUrl in /home/xiaogu/www/xiaogu/application/modules/Admin/views/client/member/index.phtml on line 3
+[01-Jul-2016 10:12:45 PRC] PHP Stack trace:
+[01-Jul-2016 10:12:45 PRC] PHP   1. {main}() /home/xiaogu/www/xiaogu/public/admin/index.php:0
+[01-Jul-2016 10:12:45 PRC] PHP   2. Yaf_Application->run() /home/xiaogu/www/xiaogu/public/admin/index.php:8
+[01-Jul-2016 10:12:45 PRC] PHP   3. Yaf_View_Simple->render() /home/xiaogu/www/xiaogu/public/admin/index.php:8
+[01-Jul-2016 10:12:45 PRC] PHP Notice:  Undefined variable: search in /home/xiaogu/www/xiaogu/application/modules/Admin/views/client/member/index.phtml on line 9
+[01-Jul-2016 10:12:45 PRC] PHP Stack trace:
+[01-Jul-2016 10:12:45 PRC] PHP   1. {main}() /home/xiaogu/www/xiaogu/public/admin/index.php:0
+[01-Jul-2016 10:12:45 PRC] PHP   2. Yaf_Application->run() /home/xiaogu/www/xiaogu/public/admin/index.php:8
+[01-Jul-2016 10:12:45 PRC] PHP   3. Yaf_View_Simple->render() /home/xiaogu/www/xiaogu/public/admin/index.php:8
+[01-Jul-2016 10:12:45 PRC] PHP Notice:  Undefined variable: search in /home/xiaogu/www/xiaogu/application/modules/Admin/views/client/member/index.phtml on line 12
+[01-Jul-2016 10:12:45 PRC] PHP Stack trace:
+[01-Jul-2016 10:12:45 PRC] PHP   1. {main}() /home/xiaogu/www/xiaogu/public/admin/index.php:0
+[01-Jul-2016 10:12:45 PRC] PHP   2. Yaf_Application->run() /home/xiaogu/www/xiaogu/public/admin/index.php:8
+[01-Jul-2016 10:12:45 PRC] PHP   3. Yaf_View_Simple->render() /home/xiaogu/www/xiaogu/public/admin/index.php:8
+[01-Jul-2016 10:12:45 PRC] PHP Notice:  Undefined variable: search in /home/xiaogu/www/xiaogu/application/modules/Admin/views/client/member/index.phtml on line 16
+[01-Jul-2016 10:12:45 PRC] PHP Stack trace:
+[01-Jul-2016 10:12:45 PRC] PHP   1. {main}() /home/xiaogu/www/xiaogu/public/admin/index.php:0
+[01-Jul-2016 10:12:45 PRC] PHP   2. Yaf_Application->run() /home/xiaogu/www/xiaogu/public/admin/index.php:8
+[01-Jul-2016 10:12:45 PRC] PHP   3. Yaf_View_Simple->render() /home/xiaogu/www/xiaogu/public/admin/index.php:8
+[01-Jul-2016 10:12:45 PRC] PHP Notice:  Undefined variable: search in /home/xiaogu/www/xiaogu/application/modules/Admin/views/client/member/index.phtml on line 19
+[01-Jul-2016 10:12:45 PRC] PHP Stack trace:
+[01-Jul-2016 10:12:45 PRC] PHP   1. {main}() /home/xiaogu/www/xiaogu/public/admin/index.php:0
+[01-Jul-2016 10:12:45 PRC] PHP   2. Yaf_Application->run() /home/xiaogu/www/xiaogu/public/admin/index.php:8
+[01-Jul-2016 10:12:45 PRC] PHP   3. Yaf_View_Simple->render() /home/xiaogu/www/xiaogu/public/admin/index.php:8
+[01-Jul-2016 10:12:45 PRC] PHP Notice:  Undefined variable: search in /home/xiaogu/www/xiaogu/application/modules/Admin/views/client/member/index.phtml on line 19
+[01-Jul-2016 10:12:45 PRC] PHP Stack trace:
+[01-Jul-2016 10:12:45 PRC] PHP   1. {main}() /home/xiaogu/www/xiaogu/public/admin/index.php:0
+[01-Jul-2016 10:12:45 PRC] PHP   2. Yaf_Application->run() /home/xiaogu/www/xiaogu/public/admin/index.php:8
+[01-Jul-2016 10:12:45 PRC] PHP   3. Yaf_View_Simple->render() /home/xiaogu/www/xiaogu/public/admin/index.php:8
+[01-Jul-2016 10:12:45 PRC] PHP Notice:  Undefined variable: total in /home/xiaogu/www/xiaogu/application/modules/Admin/views/client/member/index.phtml on line 28
+[01-Jul-2016 10:12:45 PRC] PHP Stack trace:
+[01-Jul-2016 10:12:45 PRC] PHP   1. {main}() /home/xiaogu/www/xiaogu/public/admin/index.php:0
+[01-Jul-2016 10:12:45 PRC] PHP   2. Yaf_Application->run() /home/xiaogu/www/xiaogu/public/admin/index.php:8
+[01-Jul-2016 10:12:45 PRC] PHP   3. Yaf_View_Simple->render() /home/xiaogu/www/xiaogu/public/admin/index.php:8
+[01-Jul-2016 10:12:45 PRC] PHP Notice:  Undefined variable: result in /home/xiaogu/www/xiaogu/application/modules/Admin/views/client/member/index.phtml on line 45
+[01-Jul-2016 10:12:45 PRC] PHP Stack trace:
+[01-Jul-2016 10:12:45 PRC] PHP   1. {main}() /home/xiaogu/www/xiaogu/public/admin/index.php:0
+[01-Jul-2016 10:12:45 PRC] PHP   2. Yaf_Application->run() /home/xiaogu/www/xiaogu/public/admin/index.php:8
+[01-Jul-2016 10:12:45 PRC] PHP   3. Yaf_View_Simple->render() /home/xiaogu/www/xiaogu/public/admin/index.php:8
+[01-Jul-2016 10:12:45 PRC] PHP Warning:  Invalid argument supplied for foreach() in /home/xiaogu/www/xiaogu/application/modules/Admin/views/client/member/index.phtml on line 45
+[01-Jul-2016 10:12:45 PRC] PHP Stack trace:
+[01-Jul-2016 10:12:45 PRC] PHP   1. {main}() /home/xiaogu/www/xiaogu/public/admin/index.php:0
+[01-Jul-2016 10:12:45 PRC] PHP   2. Yaf_Application->run() /home/xiaogu/www/xiaogu/public/admin/index.php:8
+[01-Jul-2016 10:12:45 PRC] PHP   3. Yaf_View_Simple->render() /home/xiaogu/www/xiaogu/public/admin/index.php:8
+[01-Jul-2016 10:12:45 PRC] PHP Notice:  Undefined variable: pager in /home/xiaogu/www/xiaogu/application/modules/Admin/views/client/member/index.phtml on line 66
+[01-Jul-2016 10:12:45 PRC] PHP Stack trace:
+[01-Jul-2016 10:12:45 PRC] PHP   1. {main}() /home/xiaogu/www/xiaogu/public/admin/index.php:0
+[01-Jul-2016 10:12:45 PRC] PHP   2. Yaf_Application->run() /home/xiaogu/www/xiaogu/public/admin/index.php:8
+[01-Jul-2016 10:12:45 PRC] PHP   3. Yaf_View_Simple->render() /home/xiaogu/www/xiaogu/public/admin/index.php:8
+[01-Jul-2016 10:12:45 PRC] PHP Notice:  Undefined index: tdebug in /home/xiaogu/www/xiaogu/application/plugins/User.php on line 25
+[01-Jul-2016 10:12:45 PRC] PHP Stack trace:
+[01-Jul-2016 10:12:45 PRC] PHP   1. {main}() /home/xiaogu/www/xiaogu/public/admin/index.php:0
+[01-Jul-2016 10:12:45 PRC] PHP   2. Yaf_Application->run() /home/xiaogu/www/xiaogu/public/admin/index.php:8
+[01-Jul-2016 10:12:45 PRC] PHP   3. UserPlugin->dispatchLoopShutdown() /home/xiaogu/www/xiaogu/public/admin/index.php:8
+[01-Jul-2016 10:15:21 PRC] PHP Notice:  Undefined index: e8e9fc212f6af821d56d19ec84cbcc6c in /home/xiaogu/www/xiaogu/library/Common/Dao/Factory.php on line 21
+[01-Jul-2016 10:15:21 PRC] PHP Stack trace:
+[01-Jul-2016 10:15:21 PRC] PHP   1. {main}() /home/xiaogu/www/xiaogu/public/admin/index.php:0
+[01-Jul-2016 10:15:21 PRC] PHP   2. Yaf_Application->run() /home/xiaogu/www/xiaogu/public/admin/index.php:8
+[01-Jul-2016 10:15:21 PRC] PHP   3. Client_MemberController->indexAction() /home/xiaogu/www/xiaogu/public/admin/index.php:8
+[01-Jul-2016 10:15:21 PRC] PHP   4. Member_Service_Member::getList() /home/xiaogu/www/xiaogu/application/modules/Admin/controllers/Client/Member.php:16
+[01-Jul-2016 10:15:21 PRC] PHP   5. Member_Service_Member::_getDao() /home/xiaogu/www/xiaogu/library/Member/Service/Member.php:15
+[01-Jul-2016 10:15:21 PRC] PHP   6. Common::getDao() /home/xiaogu/www/xiaogu/library/Member/Service/Member.php:48
+[01-Jul-2016 10:15:21 PRC] PHP   7. Common_Dao_Factory::getDao() /home/xiaogu/www/xiaogu/library/Common.php:25
+[01-Jul-2016 10:15:21 PRC] PHP Notice:  Undefined variable: listUrl in /home/xiaogu/www/xiaogu/application/modules/Admin/views/client/member/index.phtml on line 3
+[01-Jul-2016 10:15:21 PRC] PHP Stack trace:
+[01-Jul-2016 10:15:21 PRC] PHP   1. {main}() /home/xiaogu/www/xiaogu/public/admin/index.php:0
+[01-Jul-2016 10:15:21 PRC] PHP   2. Yaf_Application->run() /home/xiaogu/www/xiaogu/public/admin/index.php:8
+[01-Jul-2016 10:15:21 PRC] PHP   3. Yaf_View_Simple->render() /home/xiaogu/www/xiaogu/public/admin/index.php:8
+[01-Jul-2016 10:15:21 PRC] PHP Notice:  Undefined variable: search in /home/xiaogu/www/xiaogu/application/modules/Admin/views/client/member/index.phtml on line 9
+[01-Jul-2016 10:15:21 PRC] PHP Stack trace:
+[01-Jul-2016 10:15:21 PRC] PHP   1. {main}() /home/xiaogu/www/xiaogu/public/admin/index.php:0
+[01-Jul-2016 10:15:21 PRC] PHP   2. Yaf_Application->run() /home/xiaogu/www/xiaogu/public/admin/index.php:8
+[01-Jul-2016 10:15:21 PRC] PHP   3. Yaf_View_Simple->render() /home/xiaogu/www/xiaogu/public/admin/index.php:8
+[01-Jul-2016 10:15:21 PRC] PHP Notice:  Undefined variable: search in /home/xiaogu/www/xiaogu/application/modules/Admin/views/client/member/index.phtml on line 12
+[01-Jul-2016 10:15:21 PRC] PHP Stack trace:
+[01-Jul-2016 10:15:21 PRC] PHP   1. {main}() /home/xiaogu/www/xiaogu/public/admin/index.php:0
+[01-Jul-2016 10:15:21 PRC] PHP   2. Yaf_Application->run() /home/xiaogu/www/xiaogu/public/admin/index.php:8
+[01-Jul-2016 10:15:21 PRC] PHP   3. Yaf_View_Simple->render() /home/xiaogu/www/xiaogu/public/admin/index.php:8
+[01-Jul-2016 10:15:21 PRC] PHP Notice:  Undefined variable: search in /home/xiaogu/www/xiaogu/application/modules/Admin/views/client/member/index.phtml on line 16
+[01-Jul-2016 10:15:21 PRC] PHP Stack trace:
+[01-Jul-2016 10:15:21 PRC] PHP   1. {main}() /home/xiaogu/www/xiaogu/public/admin/index.php:0
+[01-Jul-2016 10:15:21 PRC] PHP   2. Yaf_Application->run() /home/xiaogu/www/xiaogu/public/admin/index.php:8
+[01-Jul-2016 10:15:21 PRC] PHP   3. Yaf_View_Simple->render() /home/xiaogu/www/xiaogu/public/admin/index.php:8
+[01-Jul-2016 10:15:21 PRC] PHP Notice:  Undefined variable: search in /home/xiaogu/www/xiaogu/application/modules/Admin/views/client/member/index.phtml on line 19
+[01-Jul-2016 10:15:21 PRC] PHP Stack trace:
+[01-Jul-2016 10:15:21 PRC] PHP   1. {main}() /home/xiaogu/www/xiaogu/public/admin/index.php:0
+[01-Jul-2016 10:15:21 PRC] PHP   2. Yaf_Application->run() /home/xiaogu/www/xiaogu/public/admin/index.php:8
+[01-Jul-2016 10:15:21 PRC] PHP   3. Yaf_View_Simple->render() /home/xiaogu/www/xiaogu/public/admin/index.php:8
+[01-Jul-2016 10:15:21 PRC] PHP Notice:  Undefined variable: search in /home/xiaogu/www/xiaogu/application/modules/Admin/views/client/member/index.phtml on line 19
+[01-Jul-2016 10:15:21 PRC] PHP Stack trace:
+[01-Jul-2016 10:15:21 PRC] PHP   1. {main}() /home/xiaogu/www/xiaogu/public/admin/index.php:0
+[01-Jul-2016 10:15:21 PRC] PHP   2. Yaf_Application->run() /home/xiaogu/www/xiaogu/public/admin/index.php:8
+[01-Jul-2016 10:15:21 PRC] PHP   3. Yaf_View_Simple->render() /home/xiaogu/www/xiaogu/public/admin/index.php:8
+[01-Jul-2016 10:15:21 PRC] PHP Notice:  Undefined variable: total in /home/xiaogu/www/xiaogu/application/modules/Admin/views/client/member/index.phtml on line 28
+[01-Jul-2016 10:15:21 PRC] PHP Stack trace:
+[01-Jul-2016 10:15:21 PRC] PHP   1. {main}() /home/xiaogu/www/xiaogu/public/admin/index.php:0
+[01-Jul-2016 10:15:21 PRC] PHP   2. Yaf_Application->run() /home/xiaogu/www/xiaogu/public/admin/index.php:8
+[01-Jul-2016 10:15:21 PRC] PHP   3. Yaf_View_Simple->render() /home/xiaogu/www/xiaogu/public/admin/index.php:8
+[01-Jul-2016 10:15:21 PRC] PHP Notice:  Undefined variable: result in /home/xiaogu/www/xiaogu/application/modules/Admin/views/client/member/index.phtml on line 45
+[01-Jul-2016 10:15:21 PRC] PHP Stack trace:
+[01-Jul-2016 10:15:21 PRC] PHP   1. {main}() /home/xiaogu/www/xiaogu/public/admin/index.php:0
+[01-Jul-2016 10:15:21 PRC] PHP   2. Yaf_Application->run() /home/xiaogu/www/xiaogu/public/admin/index.php:8
+[01-Jul-2016 10:15:21 PRC] PHP   3. Yaf_View_Simple->render() /home/xiaogu/www/xiaogu/public/admin/index.php:8
+[01-Jul-2016 10:15:21 PRC] PHP Warning:  Invalid argument supplied for foreach() in /home/xiaogu/www/xiaogu/application/modules/Admin/views/client/member/index.phtml on line 45
+[01-Jul-2016 10:15:21 PRC] PHP Stack trace:
+[01-Jul-2016 10:15:21 PRC] PHP   1. {main}() /home/xiaogu/www/xiaogu/public/admin/index.php:0
+[01-Jul-2016 10:15:21 PRC] PHP   2. Yaf_Application->run() /home/xiaogu/www/xiaogu/public/admin/index.php:8
+[01-Jul-2016 10:15:21 PRC] PHP   3. Yaf_View_Simple->render() /home/xiaogu/www/xiaogu/public/admin/index.php:8
+[01-Jul-2016 10:15:21 PRC] PHP Notice:  Undefined variable: pager in /home/xiaogu/www/xiaogu/application/modules/Admin/views/client/member/index.phtml on line 66
+[01-Jul-2016 10:15:21 PRC] PHP Stack trace:
+[01-Jul-2016 10:15:21 PRC] PHP   1. {main}() /home/xiaogu/www/xiaogu/public/admin/index.php:0
+[01-Jul-2016 10:15:21 PRC] PHP   2. Yaf_Application->run() /home/xiaogu/www/xiaogu/public/admin/index.php:8
+[01-Jul-2016 10:15:21 PRC] PHP   3. Yaf_View_Simple->render() /home/xiaogu/www/xiaogu/public/admin/index.php:8
+[01-Jul-2016 10:15:21 PRC] PHP Notice:  Undefined index: tdebug in /home/xiaogu/www/xiaogu/application/plugins/User.php on line 25
+[01-Jul-2016 10:15:21 PRC] PHP Stack trace:
+[01-Jul-2016 10:15:21 PRC] PHP   1. {main}() /home/xiaogu/www/xiaogu/public/admin/index.php:0
+[01-Jul-2016 10:15:21 PRC] PHP   2. Yaf_Application->run() /home/xiaogu/www/xiaogu/public/admin/index.php:8
+[01-Jul-2016 10:15:21 PRC] PHP   3. UserPlugin->dispatchLoopShutdown() /home/xiaogu/www/xiaogu/public/admin/index.php:8
+[01-Jul-2016 10:16:00 PRC] PHP Notice:  Undefined variable: listUrl in /home/xiaogu/www/xiaogu/application/modules/Admin/views/client/member/index.phtml on line 3
+[01-Jul-2016 10:16:00 PRC] PHP Stack trace:
+[01-Jul-2016 10:16:00 PRC] PHP   1. {main}() /home/xiaogu/www/xiaogu/public/admin/index.php:0
+[01-Jul-2016 10:16:00 PRC] PHP   2. Yaf_Application->run() /home/xiaogu/www/xiaogu/public/admin/index.php:8
+[01-Jul-2016 10:16:00 PRC] PHP   3. Yaf_View_Simple->render() /home/xiaogu/www/xiaogu/public/admin/index.php:8
+[01-Jul-2016 10:16:00 PRC] PHP Notice:  Undefined variable: search in /home/xiaogu/www/xiaogu/application/modules/Admin/views/client/member/index.phtml on line 9
+[01-Jul-2016 10:16:00 PRC] PHP Stack trace:
+[01-Jul-2016 10:16:00 PRC] PHP   1. {main}() /home/xiaogu/www/xiaogu/public/admin/index.php:0
+[01-Jul-2016 10:16:00 PRC] PHP   2. Yaf_Application->run() /home/xiaogu/www/xiaogu/public/admin/index.php:8
+[01-Jul-2016 10:16:00 PRC] PHP   3. Yaf_View_Simple->render() /home/xiaogu/www/xiaogu/public/admin/index.php:8
+[01-Jul-2016 10:16:00 PRC] PHP Notice:  Undefined variable: search in /home/xiaogu/www/xiaogu/application/modules/Admin/views/client/member/index.phtml on line 12
+[01-Jul-2016 10:16:00 PRC] PHP Stack trace:
+[01-Jul-2016 10:16:00 PRC] PHP   1. {main}() /home/xiaogu/www/xiaogu/public/admin/index.php:0
+[01-Jul-2016 10:16:00 PRC] PHP   2. Yaf_Application->run() /home/xiaogu/www/xiaogu/public/admin/index.php:8
+[01-Jul-2016 10:16:00 PRC] PHP   3. Yaf_View_Simple->render() /home/xiaogu/www/xiaogu/public/admin/index.php:8
+[01-Jul-2016 10:16:00 PRC] PHP Notice:  Undefined variable: search in /home/xiaogu/www/xiaogu/application/modules/Admin/views/client/member/index.phtml on line 16
+[01-Jul-2016 10:16:00 PRC] PHP Stack trace:
+[01-Jul-2016 10:16:00 PRC] PHP   1. {main}() /home/xiaogu/www/xiaogu/public/admin/index.php:0
+[01-Jul-2016 10:16:00 PRC] PHP   2. Yaf_Application->run() /home/xiaogu/www/xiaogu/public/admin/index.php:8
+[01-Jul-2016 10:16:00 PRC] PHP   3. Yaf_View_Simple->render() /home/xiaogu/www/xiaogu/public/admin/index.php:8
+[01-Jul-2016 10:16:00 PRC] PHP Notice:  Undefined variable: search in /home/xiaogu/www/xiaogu/application/modules/Admin/views/client/member/index.phtml on line 19
+[01-Jul-2016 10:16:00 PRC] PHP Stack trace:
+[01-Jul-2016 10:16:00 PRC] PHP   1. {main}() /home/xiaogu/www/xiaogu/public/admin/index.php:0
+[01-Jul-2016 10:16:00 PRC] PHP   2. Yaf_Application->run() /home/xiaogu/www/xiaogu/public/admin/index.php:8
+[01-Jul-2016 10:16:00 PRC] PHP   3. Yaf_View_Simple->render() /home/xiaogu/www/xiaogu/public/admin/index.php:8
+[01-Jul-2016 10:16:00 PRC] PHP Notice:  Undefined variable: search in /home/xiaogu/www/xiaogu/application/modules/Admin/views/client/member/index.phtml on line 19
+[01-Jul-2016 10:16:00 PRC] PHP Stack trace:
+[01-Jul-2016 10:16:00 PRC] PHP   1. {main}() /home/xiaogu/www/xiaogu/public/admin/index.php:0
+[01-Jul-2016 10:16:00 PRC] PHP   2. Yaf_Application->run() /home/xiaogu/www/xiaogu/public/admin/index.php:8
+[01-Jul-2016 10:16:00 PRC] PHP   3. Yaf_View_Simple->render() /home/xiaogu/www/xiaogu/public/admin/index.php:8
+[01-Jul-2016 10:16:00 PRC] PHP Notice:  Undefined variable: total in /home/xiaogu/www/xiaogu/application/modules/Admin/views/client/member/index.phtml on line 28
+[01-Jul-2016 10:16:00 PRC] PHP Stack trace:
+[01-Jul-2016 10:16:00 PRC] PHP   1. {main}() /home/xiaogu/www/xiaogu/public/admin/index.php:0
+[01-Jul-2016 10:16:00 PRC] PHP   2. Yaf_Application->run() /home/xiaogu/www/xiaogu/public/admin/index.php:8
+[01-Jul-2016 10:16:00 PRC] PHP   3. Yaf_View_Simple->render() /home/xiaogu/www/xiaogu/public/admin/index.php:8
+[01-Jul-2016 10:16:00 PRC] PHP Notice:  Undefined variable: result in /home/xiaogu/www/xiaogu/application/modules/Admin/views/client/member/index.phtml on line 45
+[01-Jul-2016 10:16:00 PRC] PHP Stack trace:
+[01-Jul-2016 10:16:00 PRC] PHP   1. {main}() /home/xiaogu/www/xiaogu/public/admin/index.php:0
+[01-Jul-2016 10:16:00 PRC] PHP   2. Yaf_Application->run() /home/xiaogu/www/xiaogu/public/admin/index.php:8
+[01-Jul-2016 10:16:00 PRC] PHP   3. Yaf_View_Simple->render() /home/xiaogu/www/xiaogu/public/admin/index.php:8
+[01-Jul-2016 10:16:00 PRC] PHP Warning:  Invalid argument supplied for foreach() in /home/xiaogu/www/xiaogu/application/modules/Admin/views/client/member/index.phtml on line 45
+[01-Jul-2016 10:16:00 PRC] PHP Stack trace:
+[01-Jul-2016 10:16:00 PRC] PHP   1. {main}() /home/xiaogu/www/xiaogu/public/admin/index.php:0
+[01-Jul-2016 10:16:00 PRC] PHP   2. Yaf_Application->run() /home/xiaogu/www/xiaogu/public/admin/index.php:8
+[01-Jul-2016 10:16:00 PRC] PHP   3. Yaf_View_Simple->render() /home/xiaogu/www/xiaogu/public/admin/index.php:8
+[01-Jul-2016 10:16:00 PRC] PHP Notice:  Undefined variable: pager in /home/xiaogu/www/xiaogu/application/modules/Admin/views/client/member/index.phtml on line 66
+[01-Jul-2016 10:16:00 PRC] PHP Stack trace:
+[01-Jul-2016 10:16:00 PRC] PHP   1. {main}() /home/xiaogu/www/xiaogu/public/admin/index.php:0
+[01-Jul-2016 10:16:00 PRC] PHP   2. Yaf_Application->run() /home/xiaogu/www/xiaogu/public/admin/index.php:8
+[01-Jul-2016 10:16:00 PRC] PHP   3. Yaf_View_Simple->render() /home/xiaogu/www/xiaogu/public/admin/index.php:8
+[01-Jul-2016 10:16:00 PRC] PHP Notice:  Undefined index: tdebug in /home/xiaogu/www/xiaogu/application/plugins/User.php on line 25
+[01-Jul-2016 10:16:00 PRC] PHP Stack trace:
+[01-Jul-2016 10:16:00 PRC] PHP   1. {main}() /home/xiaogu/www/xiaogu/public/admin/index.php:0
+[01-Jul-2016 10:16:00 PRC] PHP   2. Yaf_Application->run() /home/xiaogu/www/xiaogu/public/admin/index.php:8
+[01-Jul-2016 10:16:00 PRC] PHP   3. UserPlugin->dispatchLoopShutdown() /home/xiaogu/www/xiaogu/public/admin/index.php:8
+[01-Jul-2016 10:16:56 PRC] PHP Notice:  Undefined variable: listUrl in /home/xiaogu/www/xiaogu/application/modules/Admin/views/client/member/index.phtml on line 3
+[01-Jul-2016 10:16:56 PRC] PHP Stack trace:
+[01-Jul-2016 10:16:56 PRC] PHP   1. {main}() /home/xiaogu/www/xiaogu/public/admin/index.php:0
+[01-Jul-2016 10:16:56 PRC] PHP   2. Yaf_Application->run() /home/xiaogu/www/xiaogu/public/admin/index.php:8
+[01-Jul-2016 10:16:56 PRC] PHP   3. Yaf_View_Simple->render() /home/xiaogu/www/xiaogu/public/admin/index.php:8
+[01-Jul-2016 10:16:56 PRC] PHP Notice:  Undefined variable: search in /home/xiaogu/www/xiaogu/application/modules/Admin/views/client/member/index.phtml on line 9
+[01-Jul-2016 10:16:56 PRC] PHP Stack trace:
+[01-Jul-2016 10:16:56 PRC] PHP   1. {main}() /home/xiaogu/www/xiaogu/public/admin/index.php:0
+[01-Jul-2016 10:16:56 PRC] PHP   2. Yaf_Application->run() /home/xiaogu/www/xiaogu/public/admin/index.php:8
+[01-Jul-2016 10:16:56 PRC] PHP   3. Yaf_View_Simple->render() /home/xiaogu/www/xiaogu/public/admin/index.php:8
+[01-Jul-2016 10:16:56 PRC] PHP Notice:  Undefined variable: search in /home/xiaogu/www/xiaogu/application/modules/Admin/views/client/member/index.phtml on line 12
+[01-Jul-2016 10:16:56 PRC] PHP Stack trace:
+[01-Jul-2016 10:16:56 PRC] PHP   1. {main}() /home/xiaogu/www/xiaogu/public/admin/index.php:0
+[01-Jul-2016 10:16:56 PRC] PHP   2. Yaf_Application->run() /home/xiaogu/www/xiaogu/public/admin/index.php:8
+[01-Jul-2016 10:16:56 PRC] PHP   3. Yaf_View_Simple->render() /home/xiaogu/www/xiaogu/public/admin/index.php:8
+[01-Jul-2016 10:16:56 PRC] PHP Notice:  Undefined variable: search in /home/xiaogu/www/xiaogu/application/modules/Admin/views/client/member/index.phtml on line 16
+[01-Jul-2016 10:16:56 PRC] PHP Stack trace:
+[01-Jul-2016 10:16:56 PRC] PHP   1. {main}() /home/xiaogu/www/xiaogu/public/admin/index.php:0
+[01-Jul-2016 10:16:56 PRC] PHP   2. Yaf_Application->run() /home/xiaogu/www/xiaogu/public/admin/index.php:8
+[01-Jul-2016 10:16:56 PRC] PHP   3. Yaf_View_Simple->render() /home/xiaogu/www/xiaogu/public/admin/index.php:8
+[01-Jul-2016 10:16:56 PRC] PHP Notice:  Undefined variable: search in /home/xiaogu/www/xiaogu/application/modules/Admin/views/client/member/index.phtml on line 19
+[01-Jul-2016 10:16:56 PRC] PHP Stack trace:
+[01-Jul-2016 10:16:56 PRC] PHP   1. {main}() /home/xiaogu/www/xiaogu/public/admin/index.php:0
+[01-Jul-2016 10:16:56 PRC] PHP   2. Yaf_Application->run() /home/xiaogu/www/xiaogu/public/admin/index.php:8
+[01-Jul-2016 10:16:56 PRC] PHP   3. Yaf_View_Simple->render() /home/xiaogu/www/xiaogu/public/admin/index.php:8
+[01-Jul-2016 10:16:56 PRC] PHP Notice:  Undefined variable: search in /home/xiaogu/www/xiaogu/application/modules/Admin/views/client/member/index.phtml on line 19
+[01-Jul-2016 10:16:56 PRC] PHP Stack trace:
+[01-Jul-2016 10:16:56 PRC] PHP   1. {main}() /home/xiaogu/www/xiaogu/public/admin/index.php:0
+[01-Jul-2016 10:16:56 PRC] PHP   2. Yaf_Application->run() /home/xiaogu/www/xiaogu/public/admin/index.php:8
+[01-Jul-2016 10:16:56 PRC] PHP   3. Yaf_View_Simple->render() /home/xiaogu/www/xiaogu/public/admin/index.php:8
+[01-Jul-2016 10:16:56 PRC] PHP Notice:  Undefined variable: total in /home/xiaogu/www/xiaogu/application/modules/Admin/views/client/member/index.phtml on line 28
+[01-Jul-2016 10:16:56 PRC] PHP Stack trace:
+[01-Jul-2016 10:16:56 PRC] PHP   1. {main}() /home/xiaogu/www/xiaogu/public/admin/index.php:0
+[01-Jul-2016 10:16:56 PRC] PHP   2. Yaf_Application->run() /home/xiaogu/www/xiaogu/public/admin/index.php:8
+[01-Jul-2016 10:16:56 PRC] PHP   3. Yaf_View_Simple->render() /home/xiaogu/www/xiaogu/public/admin/index.php:8
+[01-Jul-2016 10:16:56 PRC] PHP Notice:  Undefined variable: result in /home/xiaogu/www/xiaogu/application/modules/Admin/views/client/member/index.phtml on line 45
+[01-Jul-2016 10:16:56 PRC] PHP Stack trace:
+[01-Jul-2016 10:16:56 PRC] PHP   1. {main}() /home/xiaogu/www/xiaogu/public/admin/index.php:0
+[01-Jul-2016 10:16:56 PRC] PHP   2. Yaf_Application->run() /home/xiaogu/www/xiaogu/public/admin/index.php:8
+[01-Jul-2016 10:16:56 PRC] PHP   3. Yaf_View_Simple->render() /home/xiaogu/www/xiaogu/public/admin/index.php:8
+[01-Jul-2016 10:16:56 PRC] PHP Warning:  Invalid argument supplied for foreach() in /home/xiaogu/www/xiaogu/application/modules/Admin/views/client/member/index.phtml on line 45
+[01-Jul-2016 10:16:56 PRC] PHP Stack trace:
+[01-Jul-2016 10:16:56 PRC] PHP   1. {main}() /home/xiaogu/www/xiaogu/public/admin/index.php:0
+[01-Jul-2016 10:16:56 PRC] PHP   2. Yaf_Application->run() /home/xiaogu/www/xiaogu/public/admin/index.php:8
+[01-Jul-2016 10:16:56 PRC] PHP   3. Yaf_View_Simple->render() /home/xiaogu/www/xiaogu/public/admin/index.php:8
+[01-Jul-2016 10:16:56 PRC] PHP Notice:  Undefined variable: pager in /home/xiaogu/www/xiaogu/application/modules/Admin/views/client/member/index.phtml on line 66
+[01-Jul-2016 10:16:56 PRC] PHP Stack trace:
+[01-Jul-2016 10:16:56 PRC] PHP   1. {main}() /home/xiaogu/www/xiaogu/public/admin/index.php:0
+[01-Jul-2016 10:16:56 PRC] PHP   2. Yaf_Application->run() /home/xiaogu/www/xiaogu/public/admin/index.php:8
+[01-Jul-2016 10:16:56 PRC] PHP   3. Yaf_View_Simple->render() /home/xiaogu/www/xiaogu/public/admin/index.php:8
+[01-Jul-2016 10:17:43 PRC] PHP Notice:  Undefined variable: listUrl in /home/xiaogu/www/xiaogu/application/modules/Admin/views/client/member/index.phtml on line 3
+[01-Jul-2016 10:17:43 PRC] PHP Stack trace:
+[01-Jul-2016 10:17:43 PRC] PHP   1. {main}() /home/xiaogu/www/xiaogu/public/admin/index.php:0
+[01-Jul-2016 10:17:43 PRC] PHP   2. Yaf_Application->run() /home/xiaogu/www/xiaogu/public/admin/index.php:8
+[01-Jul-2016 10:17:43 PRC] PHP   3. Yaf_View_Simple->render() /home/xiaogu/www/xiaogu/public/admin/index.php:8
+[01-Jul-2016 10:17:43 PRC] PHP Notice:  Undefined index: username in /home/xiaogu/www/xiaogu/application/modules/Admin/views/client/member/index.phtml on line 12
+[01-Jul-2016 10:17:43 PRC] PHP Stack trace:
+[01-Jul-2016 10:17:43 PRC] PHP   1. {main}() /home/xiaogu/www/xiaogu/public/admin/index.php:0
+[01-Jul-2016 10:17:43 PRC] PHP   2. Yaf_Application->run() /home/xiaogu/www/xiaogu/public/admin/index.php:8
+[01-Jul-2016 10:17:43 PRC] PHP   3. Yaf_View_Simple->render() /home/xiaogu/www/xiaogu/public/admin/index.php:8
+[01-Jul-2016 10:17:43 PRC] PHP Notice:  Undefined variable: result in /home/xiaogu/www/xiaogu/application/modules/Admin/views/client/member/index.phtml on line 45
+[01-Jul-2016 10:17:43 PRC] PHP Stack trace:
+[01-Jul-2016 10:17:43 PRC] PHP   1. {main}() /home/xiaogu/www/xiaogu/public/admin/index.php:0
+[01-Jul-2016 10:17:43 PRC] PHP   2. Yaf_Application->run() /home/xiaogu/www/xiaogu/public/admin/index.php:8
+[01-Jul-2016 10:17:43 PRC] PHP   3. Yaf_View_Simple->render() /home/xiaogu/www/xiaogu/public/admin/index.php:8
+[01-Jul-2016 10:17:43 PRC] PHP Warning:  Invalid argument supplied for foreach() in /home/xiaogu/www/xiaogu/application/modules/Admin/views/client/member/index.phtml on line 45
+[01-Jul-2016 10:17:43 PRC] PHP Stack trace:
+[01-Jul-2016 10:17:43 PRC] PHP   1. {main}() /home/xiaogu/www/xiaogu/public/admin/index.php:0
+[01-Jul-2016 10:17:43 PRC] PHP   2. Yaf_Application->run() /home/xiaogu/www/xiaogu/public/admin/index.php:8
+[01-Jul-2016 10:17:43 PRC] PHP   3. Yaf_View_Simple->render() /home/xiaogu/www/xiaogu/public/admin/index.php:8
+[01-Jul-2016 10:17:43 PRC] PHP Notice:  Undefined variable: pager in /home/xiaogu/www/xiaogu/application/modules/Admin/views/client/member/index.phtml on line 66
+[01-Jul-2016 10:17:43 PRC] PHP Stack trace:
+[01-Jul-2016 10:17:43 PRC] PHP   1. {main}() /home/xiaogu/www/xiaogu/public/admin/index.php:0
+[01-Jul-2016 10:17:43 PRC] PHP   2. Yaf_Application->run() /home/xiaogu/www/xiaogu/public/admin/index.php:8
+[01-Jul-2016 10:17:43 PRC] PHP   3. Yaf_View_Simple->render() /home/xiaogu/www/xiaogu/public/admin/index.php:8
+[01-Jul-2016 10:19:22 PRC] PHP Parse error:  syntax error, unexpected '.', expecting ']' in /home/xiaogu/www/xiaogu/application/modules/Admin/controllers/Client/Member.php on line 12
+[01-Jul-2016 10:19:22 PRC] PHP Stack trace:
+[01-Jul-2016 10:19:22 PRC] PHP   1. {main}() /home/xiaogu/www/xiaogu/public/admin/index.php:0
+[01-Jul-2016 10:19:22 PRC] PHP   2. Yaf_Application->run() /home/xiaogu/www/xiaogu/public/admin/index.php:8
+[01-Jul-2016 10:20:01 PRC] PHP Notice:  Undefined index: username in /home/xiaogu/www/xiaogu/application/modules/Admin/views/client/member/index.phtml on line 12
+[01-Jul-2016 10:20:01 PRC] PHP Stack trace:
+[01-Jul-2016 10:20:01 PRC] PHP   1. {main}() /home/xiaogu/www/xiaogu/public/admin/index.php:0
+[01-Jul-2016 10:20:01 PRC] PHP   2. Yaf_Application->run() /home/xiaogu/www/xiaogu/public/admin/index.php:8
+[01-Jul-2016 10:20:01 PRC] PHP   3. Yaf_View_Simple->render() /home/xiaogu/www/xiaogu/public/admin/index.php:8
+[01-Jul-2016 10:20:01 PRC] PHP Notice:  Undefined variable: result in /home/xiaogu/www/xiaogu/application/modules/Admin/views/client/member/index.phtml on line 45
+[01-Jul-2016 10:20:01 PRC] PHP Stack trace:
+[01-Jul-2016 10:20:01 PRC] PHP   1. {main}() /home/xiaogu/www/xiaogu/public/admin/index.php:0
+[01-Jul-2016 10:20:01 PRC] PHP   2. Yaf_Application->run() /home/xiaogu/www/xiaogu/public/admin/index.php:8
+[01-Jul-2016 10:20:01 PRC] PHP   3. Yaf_View_Simple->render() /home/xiaogu/www/xiaogu/public/admin/index.php:8
+[01-Jul-2016 10:20:01 PRC] PHP Warning:  Invalid argument supplied for foreach() in /home/xiaogu/www/xiaogu/application/modules/Admin/views/client/member/index.phtml on line 45
+[01-Jul-2016 10:20:01 PRC] PHP Stack trace:
+[01-Jul-2016 10:20:01 PRC] PHP   1. {main}() /home/xiaogu/www/xiaogu/public/admin/index.php:0
+[01-Jul-2016 10:20:01 PRC] PHP   2. Yaf_Application->run() /home/xiaogu/www/xiaogu/public/admin/index.php:8
+[01-Jul-2016 10:20:01 PRC] PHP   3. Yaf_View_Simple->render() /home/xiaogu/www/xiaogu/public/admin/index.php:8
+[01-Jul-2016 10:20:01 PRC] PHP Notice:  Undefined variable: pager in /home/xiaogu/www/xiaogu/application/modules/Admin/views/client/member/index.phtml on line 66
+[01-Jul-2016 10:20:01 PRC] PHP Stack trace:
+[01-Jul-2016 10:20:01 PRC] PHP   1. {main}() /home/xiaogu/www/xiaogu/public/admin/index.php:0
+[01-Jul-2016 10:20:01 PRC] PHP   2. Yaf_Application->run() /home/xiaogu/www/xiaogu/public/admin/index.php:8
+[01-Jul-2016 10:20:01 PRC] PHP   3. Yaf_View_Simple->render() /home/xiaogu/www/xiaogu/public/admin/index.php:8
