@@ -43,9 +43,7 @@ class Client_MemberController extends Admin_BaseController {
         if($params['username']){
             $searchParams['username'] = $params['username'];
         }
-        
         $this->setTimeRange($params['start_time'], $params['end_time'], 'create_time',$searchParams);
-
         return $searchParams;
 
     }

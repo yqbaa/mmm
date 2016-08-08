@@ -559,7 +559,7 @@ class Util_Filter {
 					$isAry = true;
 				}
 			} else {
-				$var = $_POST[$this->_argName];
+				$var = isset($_POST[$this->_argName]) ? $_POST[$this->_argName] : '';
 				if (is_array($var)) {
 					$isAry = true;
 				}
